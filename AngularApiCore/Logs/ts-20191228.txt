@@ -1,0 +1,524 @@
+2019-12-28T21:39:12.5833535+05:30  [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-28T21:39:18.8140237+05:30  [INF] Executed DbCommand ("4,088"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0" (0723d8ff)
+2019-12-28T21:39:23.1199339+05:30  [INF] Executed DbCommand ("1,923"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2019-12-28T21:39:28.6357420+05:30  [INF] Starting @angular/cli on port 62465... (fd239fdb)
+2019-12-28T21:39:33.4479381+05:30 0HLSBM19K1RDI:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/   (ca22a1cb)
+2019-12-28T21:39:33.4479432+05:30 0HLSBM19K1RDJ:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:50104/  0 (ca22a1cb)
+2019-12-28T21:39:33.7126351+05:30 0HLSBM19K1RDJ:00000001 [INF] Request finished in 268.5417ms 200  (791a596a)
+2019-12-28T21:41:45.3340683+05:30  [INF] > PaymentWeb@0.0.0 start C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp
+> ng serve "--port" "62465"
+
+** Angular Live Development Server is listening on localhost:62465, open your browser on http://localhost:62465/ **
+ (d5eeee92)
+2019-12-28T21:42:40.2933982+05:30  [INF] i ∩╜ówdm∩╜ú: wait until bundle finished: /
+ (5b9bec14)
+2019-12-28T21:42:52.6210932+05:30  [INF] Date: 2019-12-28T16:12:52.331Z
+Hash: 907a7345422d166ac8d9
+Time: 58918ms
+chunk {main} main.js, main.js.map (main) 55.4 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 130 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+ (d84d046e)
+2019-12-28T21:42:53.3154339+05:30 0HLSBM19K1RDI:00000001 [INF] Request finished in 199850.2587ms 304  (791a596a)
+2019-12-28T21:43:00.2459032+05:30 0HLSBM19K1RDI:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:50104/styles.css   (ca22a1cb)
+2019-12-28T21:43:00.3485724+05:30 0HLSBM19K1RDK:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/polyfills.js   (ca22a1cb)
+2019-12-28T21:43:00.4631825+05:30 0HLSBM19K1RDL:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/runtime.js   (ca22a1cb)
+2019-12-28T21:43:00.4679208+05:30 0HLSBM19K1RDM:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/main.js   (ca22a1cb)
+2019-12-28T21:43:00.4716670+05:30 0HLSBM19K1RDN:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/vendor.js   (ca22a1cb)
+2019-12-28T21:43:00.5920575+05:30 0HLSBM19K1RDM:00000001 [INF] The file "/main.js" was not modified (f1f8d725)
+2019-12-28T21:43:00.5925466+05:30 0HLSBM19K1RDI:00000002 [INF] The file "/styles.css" was not modified (f1f8d725)
+2019-12-28T21:43:00.5931606+05:30 0HLSBM19K1RDN:00000001 [INF] The file "/vendor.js" was not modified (f1f8d725)
+2019-12-28T21:43:00.5942722+05:30 0HLSBM19K1RDK:00000001 [INF] The file "/polyfills.js" was not modified (f1f8d725)
+2019-12-28T21:43:00.6043474+05:30 0HLSBM19K1RDL:00000001 [INF] The file "/runtime.js" was not modified (f1f8d725)
+2019-12-28T21:43:00.6147074+05:30 0HLSBM19K1RDL:00000001 [INF] Request finished in 257.5228ms 304 application/javascript (791a596a)
+2019-12-28T21:43:00.6181115+05:30 0HLSBM19K1RDM:00000001 [INF] Request finished in 141.6079ms 304 application/javascript (791a596a)
+2019-12-28T21:43:00.6219633+05:30 0HLSBM19K1RDN:00000001 [INF] Request finished in 140.0303ms 304 application/javascript (791a596a)
+2019-12-28T21:43:00.6227757+05:30 0HLSBM19K1RDI:00000002 [INF] Request finished in 366.3102ms 304 text/css (791a596a)
+2019-12-28T21:43:00.6238658+05:30 0HLSBM19K1RDK:00000001 [INF] Request finished in 326.3533ms 304 application/javascript (791a596a)
+2019-12-28T21:51:50.7749811+05:30  [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-28T21:51:53.8181215+05:30  [INF] Executed DbCommand ("1,651"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0" (0723d8ff)
+2019-12-28T21:51:54.3902775+05:30  [INF] Executed DbCommand ("304"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2019-12-28T21:51:55.8889249+05:30  [INF] Starting @angular/cli on port 62571... (2b3d6d7e)
+2019-12-28T21:51:58.0601621+05:30 0HLSBM87O4605:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/   (ca22a1cb)
+2019-12-28T21:51:58.0601373+05:30 0HLSBM87O4604:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:50104/  0 (ca22a1cb)
+2019-12-28T21:51:58.2114051+05:30 0HLSBM87O4604:00000001 [INF] Request finished in 210.065ms 200  (791a596a)
+2019-12-28T21:53:29.2892467+05:30  [INF] > PaymentWeb@0.0.0 start C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp
+> ng serve "--port" "62571"
+
+** Angular Live Development Server is listening on localhost:62571, open your browser on http://localhost:62571/ **
+ (fcfd5f1b)
+2019-12-28T21:54:02.0664057+05:30  [INF] i ∩╜ówdm∩╜ú: wait until bundle finished: /
+ (5b9bec14)
+2019-12-28T21:54:09.0081963+05:30  [INF] Date: 2019-12-28T16:24:08.886Z
+Hash: 19a15448a0b708d69467
+Time: 37505ms
+chunk {main} main.js, main.js.map (main) 55.6 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 130 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+ (0902ed66)
+2019-12-28T21:54:09.3277277+05:30 0HLSBM87O4605:00000001 [INF] Request finished in 131330.2309ms 304  (791a596a)
+2019-12-28T21:54:13.5449217+05:30 0HLSBM87O4605:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:50104/vendor.js   (ca22a1cb)
+2019-12-28T21:54:13.6632767+05:30 0HLSBM87O4606:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/polyfills.js   (ca22a1cb)
+2019-12-28T21:54:13.6688420+05:30 0HLSBM87O4607:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/runtime.js   (ca22a1cb)
+2019-12-28T21:54:13.6994873+05:30 0HLSBM87O4609:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/main.js   (ca22a1cb)
+2019-12-28T21:54:13.7015797+05:30 0HLSBM87O4608:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/styles.css   (ca22a1cb)
+2019-12-28T21:54:13.7972670+05:30 0HLSBM87O4605:00000002 [INF] The file "/vendor.js" was not modified (f1f8d725)
+2019-12-28T21:54:13.7978621+05:30 0HLSBM87O4606:00000001 [INF] The file "/polyfills.js" was not modified (f1f8d725)
+2019-12-28T21:54:13.8019231+05:30 0HLSBM87O4607:00000001 [INF] The file "/runtime.js" was not modified (f1f8d725)
+2019-12-28T21:54:13.8036735+05:30 0HLSBM87O4608:00000001 [INF] The file "/styles.css" was not modified (f1f8d725)
+2019-12-28T21:54:13.8082702+05:30 0HLSBM87O4609:00000001 [INF] The file "/main.js" was not modified (f1f8d725)
+2019-12-28T21:54:13.8162245+05:30 0HLSBM87O4606:00000001 [INF] Request finished in 223.5823ms 304 application/javascript (791a596a)
+2019-12-28T21:54:13.8182812+05:30 0HLSBM87O4605:00000002 [INF] Request finished in 263.8907ms 304 application/javascript (791a596a)
+2019-12-28T21:54:13.9306632+05:30 0HLSBM87O4607:00000001 [INF] Request finished in 141.9179ms 304 application/javascript (791a596a)
+2019-12-28T21:54:13.9315184+05:30 0HLSBM87O4608:00000001 [INF] Request finished in 126.3153ms 304 text/css (791a596a)
+2019-12-28T21:54:13.9342122+05:30 0HLSBM87O4609:00000001 [INF] Request finished in 131.7956ms 304 application/javascript (791a596a)
+2019-12-28T21:55:38.6536960+05:30 0HLSBM87O460A:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/main.js.map   (ca22a1cb)
+2019-12-28T21:55:38.6780281+05:30 0HLSBM87O460B:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/styles.css.map   (ca22a1cb)
+2019-12-28T21:55:38.7012212+05:30 0HLSBM87O460A:00000001 [INF] The file "/main.js.map" was not modified (f1f8d725)
+2019-12-28T21:55:38.7557668+05:30 0HLSBM87O460A:00000001 [INF] Request finished in 51.7591ms 304 text/plain (791a596a)
+2019-12-28T21:55:38.7557668+05:30 0HLSBM87O460C:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/runtime.js.map   (ca22a1cb)
+2019-12-28T21:55:38.7576212+05:30 0HLSBM87O460B:00000001 [INF] The file "/styles.css.map" was not modified (f1f8d725)
+2019-12-28T21:55:38.8151144+05:30 0HLSBM87O460D:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/polyfills.js.map   (ca22a1cb)
+2019-12-28T21:55:38.8572341+05:30 0HLSBM87O460B:00000001 [INF] Request finished in 103.6374ms 304 text/plain (791a596a)
+2019-12-28T21:55:38.8641363+05:30 0HLSBM87O460C:00000001 [INF] The file "/runtime.js.map" was not modified (f1f8d725)
+2019-12-28T21:55:38.9152773+05:30 0HLSBM87O460D:00000001 [INF] The file "/polyfills.js.map" was not modified (f1f8d725)
+2019-12-28T21:55:38.9152587+05:30 0HLSBM87O460E:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/vendor.js.map   (ca22a1cb)
+2019-12-28T21:55:38.9245071+05:30 0HLSBM87O460C:00000001 [INF] Request finished in 212.703ms 304 text/plain (791a596a)
+2019-12-28T21:55:38.9246012+05:30 0HLSBM87O460D:00000001 [INF] Request finished in 160.3364ms 304 text/plain (791a596a)
+2019-12-28T21:55:38.9292446+05:30 0HLSBM87O460E:00000001 [INF] The file "/vendor.js.map" was not modified (f1f8d725)
+2019-12-28T21:55:38.9342363+05:30 0HLSBM87O460E:00000001 [INF] Request finished in 70.3796ms 304 text/plain (791a596a)
+2019-12-28T21:59:58.7047965+05:30  [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-28T21:59:59.6769792+05:30  [INF] Executed DbCommand ("579"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0" (0723d8ff)
+2019-12-28T22:00:00.2648906+05:30  [INF] Executed DbCommand ("322"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2019-12-28T22:00:01.1134113+05:30  [INF] Starting @angular/cli on port 62828... (93fa94c6)
+2019-12-28T22:00:01.8237908+05:30 0HLSBMCO004KE:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:50104/  0 (ca22a1cb)
+2019-12-28T22:00:01.8342809+05:30 0HLSBMCO004KD:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/   (ca22a1cb)
+2019-12-28T22:03:44.6284242+05:30  [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-28T22:03:47.7359301+05:30  [INF] Executed DbCommand ("1,351"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0" (0723d8ff)
+2019-12-28T22:03:48.3944045+05:30  [INF] Executed DbCommand ("366"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2019-12-28T22:03:50.0039938+05:30  [INF] Starting @angular/cli on port 62951... (5d0f8f50)
+2019-12-28T22:03:52.1963318+05:30 0HLSBMESJRVR8:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/   (ca22a1cb)
+2019-12-28T22:03:52.1963318+05:30 0HLSBMESJRVR9:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:50104/  0 (ca22a1cb)
+2019-12-28T22:03:52.4241341+05:30 0HLSBMESJRVR9:00000001 [INF] Request finished in 199.1751ms 200  (791a596a)
+2019-12-28T22:04:54.3083468+05:30  [INF] > PaymentWeb@0.0.0 start C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp
+> ng serve "--port" "62951"
+
+** Angular Live Development Server is listening on localhost:62951, open your browser on http://localhost:62951/ **
+ (d1dfab64)
+2019-12-28T22:05:00.4238219+05:30 0HLSBMESJRVR8:00000001 [INF] Request finished in 68241.0359ms 502 text/html; charset=UTF-8 (791a596a)
+2019-12-28T22:05:24.6725543+05:30 0HLSBMESJRVRA:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/   (ca22a1cb)
+2019-12-28T22:05:28.5062132+05:30  [INF] i ∩╜ówdm∩╜ú: wait until bundle finished: /
+ (5b9bec14)
+2019-12-28T22:05:53.2660889+05:30  [INF] Date: 2019-12-28T16:35:53.087Z
+Hash: 19a15448a0b708d69467
+Time: 57280ms
+chunk {main} main.js, main.js.map (main) 55.6 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 130 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+ (b1007cc0)
+2019-12-28T22:05:53.5181460+05:30 0HLSBMESJRVRA:00000001 [INF] Request finished in 28849.2351ms 200 text/html; charset=UTF-8 (791a596a)
+2019-12-28T22:05:57.5908151+05:30 0HLSBMESJRVRA:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:50104/styles.css   (ca22a1cb)
+2019-12-28T22:05:58.7925255+05:30 0HLSBMESJRVRB:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/runtime.js   (ca22a1cb)
+2019-12-28T22:05:58.7970554+05:30 0HLSBMESJRVRC:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/polyfills.js   (ca22a1cb)
+2019-12-28T22:05:58.8063222+05:30 0HLSBMESJRVRD:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/main.js   (ca22a1cb)
+2019-12-28T22:05:58.8091787+05:30 0HLSBMESJRVRE:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/vendor.js   (ca22a1cb)
+2019-12-28T22:05:59.1232513+05:30 0HLSBMESJRVRA:00000002 [INF] The file "/styles.css" was not modified (f1f8d725)
+2019-12-28T22:05:59.1232513+05:30 0HLSBMESJRVRD:00000001 [INF] The file "/main.js" was not modified (f1f8d725)
+2019-12-28T22:05:59.1232513+05:30 0HLSBMESJRVRB:00000001 [INF] The file "/runtime.js" was not modified (f1f8d725)
+2019-12-28T22:05:59.1266879+05:30 0HLSBMESJRVRE:00000001 [INF] The file "/vendor.js" was not modified (f1f8d725)
+2019-12-28T22:05:59.1272715+05:30 0HLSBMESJRVRC:00000001 [INF] The file "/polyfills.js" was not modified (f1f8d725)
+2019-12-28T22:05:59.1528233+05:30 0HLSBMESJRVRB:00000001 [INF] Request finished in 626.5907ms 304 application/javascript (791a596a)
+2019-12-28T22:05:59.1547514+05:30 0HLSBMESJRVRD:00000001 [INF] Request finished in 332.6538ms 304 application/javascript (791a596a)
+2019-12-28T22:05:59.4529104+05:30 0HLSBMESJRVRE:00000001 [INF] Request finished in 321.074ms 304 application/javascript (791a596a)
+2019-12-28T22:05:59.4537952+05:30 0HLSBMESJRVRA:00000002 [INF] Request finished in 1539.7278ms 304 text/css (791a596a)
+2019-12-28T22:05:59.4614062+05:30 0HLSBMESJRVRC:00000001 [INF] Request finished in 335.387ms 304 application/javascript (791a596a)
+2019-12-28T22:06:18.1131648+05:30 0HLSBMESJRVRA:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:50104/favicon.ico   (ca22a1cb)
+2019-12-28T22:06:18.1738066+05:30 0HLSBMESJRVRA:00000003 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\wwwroot\favicon.ico"' (27b0a520)
+2019-12-28T22:06:18.1778428+05:30 0HLSBMESJRVRA:00000003 [INF] Request finished in 64.0456ms 200 image/x-icon (791a596a)
+2019-12-28T22:11:25.6537004+05:30  [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-28T22:11:28.1555508+05:30  [INF] Executed DbCommand ("1,551"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0" (0723d8ff)
+2019-12-28T22:11:28.7470132+05:30  [INF] Executed DbCommand ("269"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2019-12-28T22:11:30.1586089+05:30  [INF] Starting @angular/cli on port 63115... (2ff91e5f)
+2019-12-28T22:11:32.3713426+05:30 0HLSBMJ5M74DG:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/   (ca22a1cb)
+2019-12-28T22:11:32.3713426+05:30 0HLSBMJ5M74DF:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:50104/  0 (ca22a1cb)
+2019-12-28T22:11:32.7656524+05:30 0HLSBMJ5M74DF:00000001 [INF] Request finished in 450.7235ms 200  (791a596a)
+2019-12-28T22:12:46.2165477+05:30  [INF] > PaymentWeb@0.0.0 start C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp
+> ng serve "--port" "63115"
+
+** Angular Live Development Server is listening on localhost:63115, open your browser on http://localhost:63115/ **
+ (0db6de2c)
+2019-12-28T22:12:52.6390070+05:30 0HLSBMJ5M74DG:00000001 [INF] Request finished in 80323.7773ms 502 text/html; charset=UTF-8 (791a596a)
+2019-12-28T22:13:29.4997005+05:30  [INF] Date: 2019-12-28T16:43:29.389Z
+Hash: 19a15448a0b708d69467
+Time: 41970ms
+chunk {main} main.js, main.js.map (main) 55.6 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 130 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+ (4e196ee5)
+2019-12-28T22:14:33.8533967+05:30 0HLSBMJ5M74DH:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/   (ca22a1cb)
+2019-12-28T22:14:43.5949833+05:30 0HLSBMJ5M74DH:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Net.Http.HttpRequestException: Failed to proxy the request to http://localhost:63115/, because the request to the proxy target failed. Check that the proxy target server is running and accepting requests to http://localhost:63115/.
+
+The underlying exception message was 'No connection could be made because the target machine actively refused it'.Check the InnerException for more details. ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.WaitForCreatedConnectionAsync(ValueTask`1 creationTask)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-12-28T22:14:44.4965169+05:30 0HLSBMJ5M74DH:00000001 [INF] Request finished in 10770.9161ms 500 text/html; charset=utf-8 (791a596a)
+2019-12-28T22:15:02.1135721+05:30 0HLSBMJ5M74DH:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:50104/favicon.ico   (ca22a1cb)
+2019-12-28T22:15:03.0835421+05:30 0HLSBMJ5M74DH:00000002 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\wwwroot\favicon.ico"' (27b0a520)
+2019-12-28T22:15:03.0868785+05:30 0HLSBMJ5M74DH:00000002 [INF] Request finished in 974.2767ms 200 image/x-icon (791a596a)
+2019-12-28T22:23:12.2318698+05:30  [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-28T22:23:19.1449402+05:30  [INF] Executed DbCommand ("3,719"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0" (0723d8ff)
+2019-12-28T22:23:20.3151366+05:30  [INF] Executed DbCommand ("537"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2019-12-28T22:23:24.8745353+05:30  [INF] Starting @angular/cli on port 63362... (97709045)
+2019-12-28T22:23:30.8953760+05:30 0HLSBMPRPRK36:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:50104/  0 (ca22a1cb)
+2019-12-28T22:23:30.8953968+05:30 0HLSBMPRPRK35:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/   (ca22a1cb)
+2019-12-28T22:23:31.0586353+05:30 0HLSBMPRPRK36:00000001 [INF] Request finished in 190.0693ms 200  (791a596a)
+2019-12-28T22:25:54.3502135+05:30  [INF] > PaymentWeb@0.0.0 start C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp
+> ng serve "--port" "63362"
+
+** Angular Live Development Server is listening on localhost:63362, open your browser on http://localhost:63362/ **
+ (2c67e176)
+2019-12-28T22:26:12.8000859+05:30  [INF] i ∩╜ówdm∩╜ú: wait until bundle finished: /
+ (5b9bec14)
+2019-12-28T22:26:21.2461632+05:30  [INF] Date: 2019-12-28T16:56:21.148Z
+Hash: 19a15448a0b708d69467
+Time: 25572ms
+chunk {main} main.js, main.js.map (main) 55.6 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 130 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+ (79903365)
+2019-12-28T22:26:21.6501062+05:30 0HLSBMPRPRK35:00000001 [INF] Request finished in 170783.8817ms 200 text/html; charset=UTF-8 (791a596a)
+2019-12-28T22:26:28.6773013+05:30 0HLSBMPRPRK35:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:50104/styles.css   (ca22a1cb)
+2019-12-28T22:26:28.7084943+05:30 0HLSBMPRPRK37:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/polyfills.js   (ca22a1cb)
+2019-12-28T22:26:28.7282184+05:30 0HLSBMPRPRK38:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/vendor.js   (ca22a1cb)
+2019-12-28T22:26:28.7294870+05:30 0HLSBMPRPRK39:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/main.js   (ca22a1cb)
+2019-12-28T22:26:28.7509867+05:30 0HLSBMPRPRK3A:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/runtime.js   (ca22a1cb)
+2019-12-28T22:26:28.7829828+05:30 0HLSBMPRPRK37:00000001 [INF] The file "/polyfills.js" was not modified (f1f8d725)
+2019-12-28T22:26:28.7829828+05:30 0HLSBMPRPRK35:00000002 [INF] The file "/styles.css" was not modified (f1f8d725)
+2019-12-28T22:26:28.7829828+05:30 0HLSBMPRPRK39:00000001 [INF] The file "/main.js" was not modified (f1f8d725)
+2019-12-28T22:26:28.7829828+05:30 0HLSBMPRPRK38:00000001 [INF] The file "/vendor.js" was not modified (f1f8d725)
+2019-12-28T22:26:28.7829828+05:30 0HLSBMPRPRK3A:00000001 [INF] The file "/runtime.js" was not modified (f1f8d725)
+2019-12-28T22:26:28.8348286+05:30 0HLSBMPRPRK3A:00000001 [INF] Request finished in 46.5599ms 304 application/javascript (791a596a)
+2019-12-28T22:26:28.8482129+05:30 0HLSBMPRPRK35:00000002 [INF] Request finished in 110.4429ms 304 text/css (791a596a)
+2019-12-28T22:26:28.8496208+05:30 0HLSBMPRPRK37:00000001 [INF] Request finished in 100.5661ms 304 application/javascript (791a596a)
+2019-12-28T22:26:28.8541537+05:30 0HLSBMPRPRK39:00000001 [INF] Request finished in 67.2383ms 304 application/javascript (791a596a)
+2019-12-28T22:26:28.8547685+05:30 0HLSBMPRPRK38:00000001 [INF] Request finished in 68.2806ms 304 application/javascript (791a596a)
+2019-12-28T22:27:32.5170538+05:30 0HLSBMPRPRK3B:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/api/SampleData/WeatherForecasts application/json  (ca22a1cb)
+2019-12-28T22:27:32.5487257+05:30 0HLSBMPRPRK3B:00000001 [INF] "Bearer" was not authenticated. Failure message: "No SecurityTokenValidator available for token: fake-jwt-token" (48071232)
+2019-12-28T22:27:32.6845765+05:30 0HLSBMPRPRK3B:00000001 [INF] Executing endpoint '"PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)"' (500cc934)
+2019-12-28T22:27:33.0618656+05:30 0HLSBMPRPRK3B:00000001 [INF] Route matched with "{action = \"WeatherForecasts\", controller = \"SampleData\", page = \"\"}". Executing action "PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)" (a44c0341)
+2019-12-28T22:27:33.1660150+05:30 0HLSBMPRPRK3B:00000001 [INF] Authorization failed. (b15dd539)
+2019-12-28T22:27:33.2206907+05:30 0HLSBMPRPRK3B:00000001 [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2019-12-28T22:27:33.2418520+05:30 0HLSBMPRPRK3B:00000001 [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2019-12-28T22:27:33.2863012+05:30 0HLSBMPRPRK3B:00000001 [INF] AuthenticationScheme: "Bearer" was challenged. (d45f1f38)
+2019-12-28T22:27:33.3005103+05:30 0HLSBMPRPRK3B:00000001 [INF] Executed action "PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)" in 224.0451ms (afa2e885)
+2019-12-28T22:27:33.3029369+05:30 0HLSBMPRPRK3B:00000001 [INF] Executed endpoint '"PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)"' (99874f2b)
+2019-12-28T22:27:33.3054484+05:30 0HLSBMPRPRK3B:00000001 [INF] Request finished in 790.5053ms 401  (791a596a)
+2019-12-28T22:27:34.5326764+05:30 0HLSBMPRPRK3B:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:50104/fetch-data   (ca22a1cb)
+2019-12-28T22:27:36.6159458+05:30 0HLSBMPRPRK3B:00000002 [INF] Request finished in 2076.5845ms 200 text/html; charset=UTF-8 (791a596a)
+2019-12-28T22:31:15.9141450+05:30  [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-28T22:31:18.7239926+05:30  [INF] Executed DbCommand ("1,909"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0" (0723d8ff)
+2019-12-28T22:31:19.2463995+05:30  [INF] Executed DbCommand ("274"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2019-12-28T22:31:20.5715247+05:30  [INF] Starting @angular/cli on port 63528... (9c544b33)
+2019-12-28T22:31:22.2977021+05:30 0HLSBMU8BDNTR:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:50104/  0 (ca22a1cb)
+2019-12-28T22:31:22.3053758+05:30 0HLSBMU8BDNTQ:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/   (ca22a1cb)
+2019-12-28T22:31:22.4132887+05:30 0HLSBMU8BDNTR:00000001 [INF] Request finished in 142.7654ms 200  (791a596a)
+2019-12-28T22:32:18.3386555+05:30  [INF] > PaymentWeb@0.0.0 start C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp
+> ng serve "--port" "63528"
+
+** Angular Live Development Server is listening on localhost:63528, open your browser on http://localhost:63528/ **
+ (fb7af997)
+2019-12-28T22:32:41.5220192+05:30  [INF] i ∩╜ówdm∩╜ú: wait until bundle finished: /
+ (5b9bec14)
+2019-12-28T22:32:56.4303120+05:30  [INF] Date: 2019-12-28T17:02:56.126Z
+Hash: ba0b5ef573783c2aa117
+Time: 36413ms
+chunk {main} main.js, main.js.map (main) 50.5 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 130 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+ (f053c42e)
+2019-12-28T22:32:56.9533765+05:30 0HLSBMU8BDNTQ:00000001 [INF] Request finished in 94686.0123ms 304  (791a596a)
+2019-12-28T22:54:52.6339128+05:30  [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-28T22:54:56.2130454+05:30  [INF] Executed DbCommand ("1,642"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0" (0723d8ff)
+2019-12-28T22:54:56.8589809+05:30  [INF] Executed DbCommand ("399"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2019-12-28T22:54:58.1498644+05:30  [INF] Starting @angular/cli on port 63734... (d2fec337)
+2019-12-28T22:55:00.6285161+05:30 0HLSBNBF27DH0:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/   (ca22a1cb)
+2019-12-28T22:55:00.6352931+05:30 0HLSBNBF27DH1:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:50104/  0 (ca22a1cb)
+2019-12-28T22:55:00.7627908+05:30 0HLSBNBF27DH1:00000001 [INF] Request finished in 156.8297ms 200  (791a596a)
+2019-12-28T22:57:09.3543572+05:30  [INF] > PaymentWeb@0.0.0 start C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp
+> ng serve "--port" "63734"
+
+** Angular Live Development Server is listening on localhost:63734, open your browser on http://localhost:63734/ **
+ (bf03b726)
+2019-12-28T22:58:07.7055535+05:30  [INF] i ∩╜ówdm∩╜ú: wait until bundle finished: /
+ (5b9bec14)
+2019-12-28T22:58:16.7857970+05:30  [INF] Date: 2019-12-28T17:28:16.480Z
+Hash: ba0b5ef573783c2aa117
+Time: 62652ms
+chunk {main} main.js, main.js.map (main) 50.5 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 130 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+ (99881523)
+2019-12-28T22:58:17.2267141+05:30 0HLSBNBF27DH0:00000001 [INF] Request finished in 196586.2629ms 304  (791a596a)
+2019-12-28T22:58:27.0683364+05:30 0HLSBNBF27DH0:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:50104/runtime.js   (ca22a1cb)
+2019-12-28T22:58:27.2248930+05:30 0HLSBNBF27DH2:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/vendor.js   (ca22a1cb)
+2019-12-28T22:58:27.3814849+05:30 0HLSBNBF27DH3:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/polyfills.js   (ca22a1cb)
+2019-12-28T22:58:27.4067928+05:30 0HLSBNBF27DH4:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/main.js   (ca22a1cb)
+2019-12-28T22:58:27.4085998+05:30 0HLSBNBF27DH5:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/styles.css   (ca22a1cb)
+2019-12-28T22:58:27.8936011+05:30 0HLSBNBF27DH0:00000002 [INF] Sending file. Request path: '"/runtime.js"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\runtime.js"' (27b0a520)
+2019-12-28T22:58:27.8941653+05:30 0HLSBNBF27DH4:00000001 [INF] Sending file. Request path: '"/main.js"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\main.js"' (27b0a520)
+2019-12-28T22:58:27.8941923+05:30 0HLSBNBF27DH5:00000001 [INF] Sending file. Request path: '"/styles.css"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\styles.css"' (27b0a520)
+2019-12-28T22:58:27.9006470+05:30 0HLSBNBF27DH0:00000002 [INF] Request finished in 832.3901ms 200 application/javascript (791a596a)
+2019-12-28T22:58:27.9017983+05:30 0HLSBNBF27DH4:00000001 [INF] Request finished in 508.5326ms 200 application/javascript (791a596a)
+2019-12-28T22:58:27.9044268+05:30 0HLSBNBF27DH5:00000001 [INF] Request finished in 507.3116ms 200 text/css (791a596a)
+2019-12-28T22:58:28.0743074+05:30 0HLSBNBF27DH3:00000001 [INF] Sending file. Request path: '"/polyfills.js"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\polyfills.js"' (27b0a520)
+2019-12-28T22:58:28.0771253+05:30 0HLSBNBF27DH3:00000001 [INF] Request finished in 849.1884ms 200 application/javascript (791a596a)
+2019-12-28T22:58:28.9555248+05:30 0HLSBNBF27DH2:00000001 [INF] Sending file. Request path: '"/vendor.js"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\vendor.js"' (27b0a520)
+2019-12-28T22:58:28.9791475+05:30 0HLSBNBF27DH2:00000001 [INF] Request finished in 1882.9699ms 200 application/javascript (791a596a)
+2019-12-28T23:00:35.6240288+05:30 0HLSBNBF27DH6:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:50104/users/authenticate application/json 57 (ca22a1cb)
+2019-12-28T23:00:35.6290372+05:30 0HLSBNBF27DH6:00000001 [INF] CORS policy execution successful. (5409d6ef)
+2019-12-28T23:00:37.1512224+05:30 0HLSBNBF27DH6:00000001 [INF] Request finished in 1531.7775ms 404 text/html; charset=utf-8 (791a596a)
+2019-12-28T23:00:43.5702910+05:30 0HLSBNBF27DH6:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:50104/users/authenticate application/json 57 (ca22a1cb)
+2019-12-28T23:00:43.5758113+05:30 0HLSBNBF27DH6:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2019-12-28T23:00:44.6324812+05:30 0HLSBNBF27DH6:00000002 [INF] Request finished in 1060.6928ms 404 text/html; charset=utf-8 (791a596a)
+2019-12-28T23:00:54.9720677+05:30 0HLSBNBF27DH6:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:50104/styles.css   (ca22a1cb)
+2019-12-28T23:00:54.9852259+05:30 0HLSBNBF27DH6:00000003 [INF] The file "/styles.css" was not modified (f1f8d725)
+2019-12-28T23:00:54.9917102+05:30 0HLSBNBF27DH6:00000003 [INF] Request finished in 27.745ms 304 text/css (791a596a)
+2019-12-28T23:00:55.1490537+05:30 0HLSBNBF27DH6:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:50104/runtime.js.map   (ca22a1cb)
+2019-12-28T23:00:55.1700253+05:30 0HLSBNBF27DH7:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/styles.css.map   (ca22a1cb)
+2019-12-28T23:00:55.1744236+05:30 0HLSBNBF27DH8:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/polyfills.js.map   (ca22a1cb)
+2019-12-28T23:00:55.1869174+05:30 0HLSBNBF27DH9:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/vendor.js.map   (ca22a1cb)
+2019-12-28T23:00:55.1915785+05:30 0HLSBNBF27DH6:00000004 [INF] Sending file. Request path: '"/runtime.js.map"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\runtime.js.map"' (27b0a520)
+2019-12-28T23:00:55.1949526+05:30 0HLSBNBF27DH6:00000004 [INF] Request finished in 46.0494ms 200 text/plain (791a596a)
+2019-12-28T23:00:55.2013741+05:30 0HLSBNBF27DH6:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:50104/main.js.map   (ca22a1cb)
+2019-12-28T23:00:55.3214320+05:30 0HLSBNBF27DH6:00000005 [INF] Sending file. Request path: '"/main.js.map"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\main.js.map"' (27b0a520)
+2019-12-28T23:00:55.3272949+05:30 0HLSBNBF27DH7:00000001 [INF] Sending file. Request path: '"/styles.css.map"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\styles.css.map"' (27b0a520)
+2019-12-28T23:00:55.3286664+05:30 0HLSBNBF27DH6:00000005 [INF] Request finished in 124.6681ms 200 text/plain (791a596a)
+2019-12-28T23:00:55.3350394+05:30 0HLSBNBF27DH7:00000001 [INF] Request finished in 161.6178ms 200 text/plain (791a596a)
+2019-12-28T23:00:55.3556821+05:30 0HLSBNBF27DH8:00000001 [INF] Sending file. Request path: '"/polyfills.js.map"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\polyfills.js.map"' (27b0a520)
+2019-12-28T23:00:55.3608236+05:30 0HLSBNBF27DH8:00000001 [INF] Request finished in 187.2715ms 200 text/plain (791a596a)
+2019-12-28T23:00:55.7978653+05:30 0HLSBNBF27DH9:00000001 [INF] Sending file. Request path: '"/vendor.js.map"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\vendor.js.map"' (27b0a520)
+2019-12-28T23:00:55.8060672+05:30 0HLSBNBF27DH9:00000001 [INF] Request finished in 625.5065ms 200 text/plain (791a596a)
+2019-12-28T23:01:06.5448613+05:30 0HLSBNBF27DH6:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:50104/users/authenticate   (ca22a1cb)
+2019-12-28T23:01:07.6149422+05:30 0HLSBNBF27DH6:00000006 [INF] Request finished in 1068.1974ms 200 text/html; charset=UTF-8 (791a596a)
+2019-12-28T23:01:07.6739215+05:30 0HLSBNBF27DH8:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:50104/polyfills.js   (ca22a1cb)
+2019-12-28T23:01:07.7086084+05:30 0HLSBNBF27DH8:00000002 [INF] The file "/polyfills.js" was not modified (f1f8d725)
+2019-12-28T23:01:07.7106824+05:30 0HLSBNBF27DH9:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:50104/vendor.js   (ca22a1cb)
+2019-12-28T23:01:07.7164945+05:30 0HLSBNBF27DH6:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:50104/main.js   (ca22a1cb)
+2019-12-28T23:01:07.7180236+05:30 0HLSBNBF27DH9:00000002 [INF] The file "/vendor.js" was not modified (f1f8d725)
+2019-12-28T23:01:07.7192842+05:30 0HLSBNBF27DH8:00000002 [INF] Request finished in 37.9675ms 304 application/javascript (791a596a)
+2019-12-28T23:01:07.7267655+05:30 0HLSBNBF27DH9:00000002 [INF] Request finished in 46.9501ms 304 application/javascript (791a596a)
+2019-12-28T23:01:07.7284193+05:30 0HLSBNBF27DH6:00000007 [INF] The file "/main.js" was not modified (f1f8d725)
+2019-12-28T23:01:07.7335856+05:30 0HLSBNBF27DH7:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:50104/runtime.js   (ca22a1cb)
+2019-12-28T23:01:07.7343398+05:30 0HLSBNBF27DH6:00000007 [INF] Request finished in 20.3221ms 304 application/javascript (791a596a)
+2019-12-28T23:01:07.7367721+05:30 0HLSBNBF27DH7:00000002 [INF] The file "/runtime.js" was not modified (f1f8d725)
+2019-12-28T23:01:07.7410235+05:30 0HLSBNBF27DH7:00000002 [INF] Request finished in 66.083ms 304 application/javascript (791a596a)
+2019-12-28T23:02:03.1537001+05:30 0HLSBNBF27DH8:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:50104/users/authenticate   (ca22a1cb)
+2019-12-28T23:02:04.5707450+05:30 0HLSBNBF27DH8:00000003 [INF] Request finished in 1416.1471ms 304  (791a596a)
+2019-12-28T23:02:04.6297104+05:30 0HLSBNBF27DH6:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:50104/styles.css   (ca22a1cb)
+2019-12-28T23:02:04.6304528+05:30 0HLSBNBF27DH9:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:50104/runtime.js   (ca22a1cb)
+2019-12-28T23:02:04.6347104+05:30 0HLSBNBF27DH6:00000008 [INF] The file "/styles.css" was not modified (f1f8d725)
+2019-12-28T23:02:04.6356188+05:30 0HLSBNBF27DH9:00000003 [INF] The file "/runtime.js" was not modified (f1f8d725)
+2019-12-28T23:02:04.7063110+05:30 0HLSBNBF27DH6:00000008 [INF] Request finished in 15.2203ms 304 text/css (791a596a)
+2019-12-28T23:02:04.7121096+05:30 0HLSBNBF27DH9:00000003 [INF] Request finished in 16.5904ms 304 application/javascript (791a596a)
+2019-12-28T23:02:04.7189461+05:30 0HLSBNBF27DH8:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:50104/vendor.js   (ca22a1cb)
+2019-12-28T23:02:04.7214395+05:30 0HLSBNBF27DH6:00000009 [INF] Request starting HTTP/1.1 GET http://localhost:50104/main.js   (ca22a1cb)
+2019-12-28T23:02:04.7288434+05:30 0HLSBNBF27DH8:00000004 [INF] The file "/vendor.js" was not modified (f1f8d725)
+2019-12-28T23:02:04.7318173+05:30 0HLSBNBF27DH6:00000009 [INF] The file "/main.js" was not modified (f1f8d725)
+2019-12-28T23:02:04.7371182+05:30 0HLSBNBF27DH6:00000009 [INF] Request finished in 19.77ms 304 application/javascript (791a596a)
+2019-12-28T23:02:04.7381582+05:30 0HLSBNBF27DH8:00000004 [INF] Request finished in 33.0244ms 304 application/javascript (791a596a)
+2019-12-28T23:02:04.7715024+05:30 0HLSBNBF27DH7:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:50104/polyfills.js   (ca22a1cb)
+2019-12-28T23:02:04.7763975+05:30 0HLSBNBF27DH7:00000003 [INF] The file "/polyfills.js" was not modified (f1f8d725)
+2019-12-28T23:02:04.7806543+05:30 0HLSBNBF27DH7:00000003 [INF] Request finished in 80.8045ms 304 application/javascript (791a596a)
+2019-12-28T23:02:26.2071465+05:30 0HLSBNBF27DH9:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:50104/api/users/authenticate   (ca22a1cb)
+2019-12-28T23:02:26.5197159+05:30 0HLSBNBF27DH9:00000004 [INF] Executing endpoint '"405 HTTP Method Not Supported"' (500cc934)
+2019-12-28T23:02:26.5491815+05:30 0HLSBNBF27DH9:00000004 [INF] Executed endpoint '"405 HTTP Method Not Supported"' (99874f2b)
+2019-12-28T23:02:26.5699806+05:30 0HLSBNBF27DH9:00000004 [INF] Request finished in 362.561ms 405  (791a596a)
+2019-12-28T23:13:19.1952253+05:30  [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-28T23:13:22.3348560+05:30  [INF] Executed DbCommand ("2,067"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0" (0723d8ff)
+2019-12-28T23:13:23.1287914+05:30  [INF] Executed DbCommand ("359"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2019-12-28T23:13:24.1655887+05:30  [INF] Starting @angular/cli on port 53131... (479b020b)
+2019-12-28T23:13:26.5699901+05:30 0HLSBNLOKV9EL:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/   (ca22a1cb)
+2019-12-28T23:13:26.6078467+05:30 0HLSBNLOKV9EK:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:50104/  0 (ca22a1cb)
+2019-12-28T23:13:27.0275181+05:30 0HLSBNLOKV9EK:00000001 [INF] Request finished in 474.599ms 200  (791a596a)
+2019-12-28T23:14:40.4444332+05:30  [INF] > PaymentWeb@0.0.0 start C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp
+> ng serve "--port" "53131"
+
+** Angular Live Development Server is listening on localhost:53131, open your browser on http://localhost:53131/ **
+ (1487596c)
+2019-12-28T23:15:11.6983309+05:30  [INF] i ∩╜ówdm∩╜ú: wait until bundle finished: /
+ (5b9bec14)
+2019-12-28T23:15:21.2088007+05:30  [INF] Date: 2019-12-28T17:45:20.953Z
+Hash: 01305ee7fd85adbd3bbe
+Time: 38781ms
+chunk {main} main.js, main.js.map (main) 50.8 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 130 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+ (c608acee)
+2019-12-28T23:15:21.6521327+05:30 0HLSBNLOKV9EL:00000001 [INF] Request finished in 115098.408ms 304  (791a596a)
+2019-12-28T23:15:32.1188508+05:30 0HLSBNLOKV9EM:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/runtime.js   (ca22a1cb)
+2019-12-28T23:15:32.1743587+05:30 0HLSBNLOKV9EL:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:50104/styles.css   (ca22a1cb)
+2019-12-28T23:15:32.1799670+05:30 0HLSBNLOKV9EN:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/vendor.js   (ca22a1cb)
+2019-12-28T23:15:32.1844759+05:30 0HLSBNLOKV9EO:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/main.js   (ca22a1cb)
+2019-12-28T23:15:32.1865807+05:30 0HLSBNLOKV9EP:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/polyfills.js   (ca22a1cb)
+2019-12-28T23:15:32.3798544+05:30 0HLSBNLOKV9EO:00000001 [INF] Sending file. Request path: '"/main.js"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\main.js"' (27b0a520)
+2019-12-28T23:15:32.3831080+05:30 0HLSBNLOKV9EO:00000001 [INF] Request finished in 199.426ms 200 application/javascript (791a596a)
+2019-12-28T23:15:32.4261442+05:30 0HLSBNLOKV9EM:00000001 [INF] Sending file. Request path: '"/runtime.js"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\runtime.js"' (27b0a520)
+2019-12-28T23:15:32.4313797+05:30 0HLSBNLOKV9EM:00000001 [INF] Request finished in 315.9375ms 200 application/javascript (791a596a)
+2019-12-28T23:15:32.4520895+05:30 0HLSBNLOKV9EL:00000002 [INF] Sending file. Request path: '"/styles.css"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\styles.css"' (27b0a520)
+2019-12-28T23:15:32.4563613+05:30 0HLSBNLOKV9EL:00000002 [INF] Request finished in 341.6152ms 200 text/css (791a596a)
+2019-12-28T23:15:32.6411651+05:30 0HLSBNLOKV9EP:00000001 [INF] Sending file. Request path: '"/polyfills.js"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\polyfills.js"' (27b0a520)
+2019-12-28T23:15:32.6454749+05:30 0HLSBNLOKV9EP:00000001 [INF] Request finished in 458.7948ms 200 application/javascript (791a596a)
+2019-12-28T23:15:34.1843624+05:30 0HLSBNLOKV9EN:00000001 [INF] Sending file. Request path: '"/vendor.js"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\vendor.js"' (27b0a520)
+2019-12-28T23:15:34.1889730+05:30 0HLSBNLOKV9EN:00000001 [INF] Request finished in 2065.9288ms 200 application/javascript (791a596a)
+2019-12-28T23:16:08.8290274+05:30 0HLSBNLOKV9EO:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:50104/api/users/authenticate application/json 57 (ca22a1cb)
+2019-12-28T23:16:08.8634201+05:30 0HLSBNLOKV9EO:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2019-12-28T23:16:08.9660299+05:30 0HLSBNLOKV9EO:00000002 [INF] Executing endpoint '"PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)"' (500cc934)
+2019-12-28T23:16:09.3582421+05:30 0HLSBNLOKV9EO:00000002 [INF] Route matched with "{action = \"Authenticate\", controller = \"Users\", page = \"\"}". Executing action "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)" (a44c0341)
+2019-12-28T23:16:09.8583030+05:30 0HLSBNLOKV9EO:00000002 [INF] Executing action method "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)" with arguments (["PaymentWeb.Model.AuthenticateModel"]) - Validation state: Valid (4e3479ed)
+2019-12-28T23:16:09.9136745+05:30 0HLSBNLOKV9EO:00000002 [WRN] username (a8044d97)
+2019-12-28T23:16:09.9165121+05:30 0HLSBNLOKV9EO:00000002 [WRN] Password (eccd0209)
+2019-12-28T23:16:28.4770846+05:30 0HLSBNLOKV9EO:00000002 [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-28T23:16:30.6566553+05:30 0HLSBNLOKV9EO:00000002 [INF] Executed DbCommand ("1,675"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2019-12-28T23:16:31.2906843+05:30 0HLSBNLOKV9EO:00000002 [INF] Executed action method "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 21427.0574ms. (50a9e262)
+2019-12-28T23:16:31.3096845+05:30 0HLSBNLOKV9EO:00000002 [INF] Executing ObjectResult, writing value of type '"PaymentWeb.Model.User"'. (8a1b66c8)
+2019-12-28T23:16:31.4651506+05:30 0HLSBNLOKV9EO:00000002 [INF] Executed action "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)" in 22101.5566ms (afa2e885)
+2019-12-28T23:16:31.4689232+05:30 0HLSBNLOKV9EO:00000002 [INF] Executed endpoint '"PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)"' (99874f2b)
+2019-12-28T23:16:31.4740111+05:30 0HLSBNLOKV9EO:00000002 [INF] Request finished in 22669.8062ms 200 application/json; charset=utf-8 (791a596a)
+2019-12-28T23:16:31.9061372+05:30 0HLSBNLOKV9EM:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:50104/api/SampleData/WeatherForecasts   (ca22a1cb)
+2019-12-28T23:16:31.9379341+05:30 0HLSBNLOKV9EM:00000002 [INF] Successfully validated the token. (60169667)
+2019-12-28T23:16:31.9496339+05:30 0HLSBNLOKV9EM:00000002 [INF] Executing endpoint '"PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)"' (500cc934)
+2019-12-28T23:16:31.9549763+05:30 0HLSBNLOKV9EM:00000002 [INF] Route matched with "{action = \"WeatherForecasts\", controller = \"SampleData\", page = \"\"}". Executing action "PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)" (a44c0341)
+2019-12-28T23:16:31.9758097+05:30 0HLSBNLOKV9EM:00000002 [INF] Authorization was successful. (0d575a54)
+2019-12-28T23:16:32.1952957+05:30 0HLSBNLOKV9EM:00000002 [INF] Executing action method "PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)" - Validation state: Valid (dad538d7)
+2019-12-28T23:16:32.2000419+05:30 0HLSBNLOKV9EM:00000002 [INF] Executed action method "PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1.87ms. (50a9e262)
+2019-12-28T23:16:32.2043615+05:30 0HLSBNLOKV9EM:00000002 [INF] Executing ObjectResult, writing value of type '"System.Linq.Enumerable+SelectIPartitionIterator`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[PaymentWeb.Controllers.SampleDataController+WeatherForecast, PaymentWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-12-28T23:16:32.3330862+05:30 0HLSBNLOKV9EM:00000002 [INF] Executed action "PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)" in 374.4796ms (afa2e885)
+2019-12-28T23:16:32.3372658+05:30 0HLSBNLOKV9EM:00000002 [INF] Executed endpoint '"PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)"' (99874f2b)
+2019-12-28T23:16:32.3421816+05:30 0HLSBNLOKV9EM:00000002 [INF] Request finished in 434.3924ms 200 application/json; charset=utf-8 (791a596a)
+2019-12-28T23:17:28.0841343+05:30 0HLSBNLOKV9EO:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:50104/api/users/authenticate application/json 37 (ca22a1cb)
+2019-12-28T23:17:28.0872242+05:30 0HLSBNLOKV9EO:00000003 [INF] CORS policy execution successful. (5409d6ef)
+2019-12-28T23:17:28.0898276+05:30 0HLSBNLOKV9EO:00000003 [INF] Executing endpoint '"PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)"' (500cc934)
+2019-12-28T23:17:28.0924623+05:30 0HLSBNLOKV9EO:00000003 [INF] Route matched with "{action = \"Authenticate\", controller = \"Users\", page = \"\"}". Executing action "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)" (a44c0341)
+2019-12-28T23:17:28.1470808+05:30 0HLSBNLOKV9EO:00000003 [INF] Executing action method "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)" with arguments (["PaymentWeb.Model.AuthenticateModel"]) - Validation state: Valid (4e3479ed)
+2019-12-28T23:17:28.1541693+05:30 0HLSBNLOKV9EO:00000003 [WRN] username (a8044d97)
+2019-12-28T23:17:28.1571976+05:30 0HLSBNLOKV9EO:00000003 [WRN] Password (eccd0209)
+2019-12-28T23:17:39.7659336+05:30 0HLSBNLOKV9EO:00000003 [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-28T23:17:39.9142394+05:30 0HLSBNLOKV9EO:00000003 [INF] Executed DbCommand ("106"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2019-12-28T23:17:45.8215155+05:30 0HLSBNLOKV9EO:00000003 [INF] Executed action method "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.BadRequestObjectResult" in 17671.2157ms. (50a9e262)
+2019-12-28T23:17:45.8244044+05:30 0HLSBNLOKV9EO:00000003 [INF] Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'. (8a1b66c8)
+2019-12-28T23:17:45.8370024+05:30 0HLSBNLOKV9EO:00000003 [INF] Executed action "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)" in 17733.6619ms (afa2e885)
+2019-12-28T23:17:45.8405197+05:30 0HLSBNLOKV9EO:00000003 [INF] Executed endpoint '"PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)"' (99874f2b)
+2019-12-28T23:17:45.8457852+05:30 0HLSBNLOKV9EO:00000003 [INF] Request finished in 17761.1991ms 400 application/json; charset=utf-8 (791a596a)

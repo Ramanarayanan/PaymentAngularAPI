@@ -1,0 +1,11 @@
+C:\Users\HOME\source\repos\AngularApiCore\DataAcess\bin\Debug\netcoreapp2.2\DataAcess.deps.json
+C:\Users\HOME\source\repos\AngularApiCore\DataAcess\bin\Debug\netcoreapp2.2\DataAcess.runtimeconfig.json
+C:\Users\HOME\source\repos\AngularApiCore\DataAcess\bin\Debug\netcoreapp2.2\DataAcess.runtimeconfig.dev.json
+C:\Users\HOME\source\repos\AngularApiCore\DataAcess\bin\Debug\netcoreapp2.2\DataAcess.dll
+C:\Users\HOME\source\repos\AngularApiCore\DataAcess\bin\Debug\netcoreapp2.2\DataAcess.pdb
+C:\Users\HOME\source\repos\AngularApiCore\DataAcess\obj\Debug\netcoreapp2.2\DataAcess.csproj.CoreCompileInputs.cache
+C:\Users\HOME\source\repos\AngularApiCore\DataAcess\obj\Debug\netcoreapp2.2\DataAcess.AssemblyInfoInputs.cache
+C:\Users\HOME\source\repos\AngularApiCore\DataAcess\obj\Debug\netcoreapp2.2\DataAcess.AssemblyInfo.cs
+C:\Users\HOME\source\repos\AngularApiCore\DataAcess\obj\Debug\netcoreapp2.2\DataAcess.dll
+C:\Users\HOME\source\repos\AngularApiCore\DataAcess\obj\Debug\netcoreapp2.2\DataAcess.pdb
+C:\Users\HOME\source\repos\AngularApiCore\DataAcess\obj\Debug\netcoreapp2.2\DataAcess.csprojAssemblyReference.cache

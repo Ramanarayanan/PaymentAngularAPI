@@ -1,0 +1,45 @@
+
+
+
+<table class='table table-striped' *ngIf="PaymentMethodlist">
+  <thead>
+    <tr>
+      <th>Select</th>
+      <th>Payment Methods</th>
+    </tr>
+  <tbody>
+    <tr>
+
+      <td>
+        <input type="radio" name="radiogroup" (change)="onSelectionChange(PaymentMethodlist[0].method)">
+      </td>
+      <td>{{ PaymentMethodlist[0].method }}</td>
+    </tr>
+    <tr>
+
+      <td>
+        <input type="radio" name="radiogroup" (change)="onSelectionChange(PaymentMethodlist[1].method)">
+      </td>
+      <td>{{ PaymentMethodlist[1].method}}</td>
+    </tr>
+    <tr>
+      <td>
+        <div class="container" *ngIf="enablePayments">
+          <div class="text-cente" *ngIf="enableNetBanking">
+            <app-netbanking [SelectedRechargePlan]="PreRechargePlans"></app-netbanking>
+          </div>
+
+          <div class="text-center" *ngIf="!enableNetBanking">
+            <app-cardpayment [SelectedRechargePlan]="PreRechargePlans" ></app-cardpayment>
+          </div>
+
+          <div class="row">
+            <input type="button" (click)="onCancel()" value="Cancel" />
+          </div>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+

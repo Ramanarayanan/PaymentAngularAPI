@@ -1,0 +1,12 @@
+<body class="body-content ">
+
+  <app-nonav></app-nonav>
+
+  <div *ngIf="currentUser">
+    <app-nav-menu></app-nav-menu>
+    <a class="nav-item nav-link" (click)="logout()">Logout</a>
+  </div>
+  <div class="container bg-light ">
+    <router-outlet></router-outlet>
+  </div>
+</body>

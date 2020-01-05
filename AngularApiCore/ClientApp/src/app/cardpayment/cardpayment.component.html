@@ -1,0 +1,54 @@
+<div class="jumbotron">
+  <div class="container">
+    <div class="justify-content-center">
+      <form [formGroup]="cardPaymentForm" (ngSubmit)="onSubmit()">
+        <div class="form-group card-img" >
+          <label for="cardnumber">CardNumber</label>
+          <input type="text" formControlName="cardnumber" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.cardnumber.errors }" />
+          <div *ngIf="submitted && f.cardnumber.errors" class="invalid-feedback">
+            <div *ngIf="f.cardnumber.errors.required">cardnumber is required</div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Cvvnumber</label>
+          <input type="password" formControlName="cvvnumber" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.cvvnumber.errors }" />
+          <div *ngIf="submitted && f.cvvnumber.errors" class="invalid-feedback">
+            <div *ngIf="f.cvvnumber.errors.required">cvvnumber is required</div>
+            <div *ngIf="f.cvvnumber.errors.minlength">cvvnumber must be at least 6 characters</div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>ExpiryDate</label>
+          <input type="text" formControlName="expiryDate" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.expiryDate.errors }" />
+          <div *ngIf="submitted && f.expiryDate.errors" class="invalid-feedback">
+            <div *ngIf="f.expiryDate.errors.required">expiryDate is required</div>
+           
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>CardHolderName</label>
+          <input type="text" formControlName="cardHolderName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.cardHolderName.errors }" />
+          <div *ngIf="submitted && f.cardHolderName.errors" class="invalid-feedback">
+            <div *ngIf="f.cardHolderName.errors.required">Email is required</div>
+            
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Amount</label>
+          <input type="text" formControlName="amount" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.amount.errors }" />
+          <div *ngIf="submitted && f.amount.errors" class="invalid-feedback">
+            <div *ngIf="f.amount.errors.required">amount is required</div>
+       
+          </div>
+        </div>
+        <div class="form-group">
+          <button [disabled]="loading" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+
+  </div>
+</div>

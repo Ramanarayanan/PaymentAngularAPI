@@ -1,0 +1,503 @@
+2019-12-31T20:45:19.6312397+05:30  [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-31T20:45:24.1235766+05:30  [INF] Executed DbCommand ("3,751"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0" (0723d8ff)
+2019-12-31T20:45:25.3943842+05:30  [INF] Executed DbCommand ("914"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2019-12-31T20:45:27.0572321+05:30  [INF] Starting @angular/cli on port 49860... (d8cb28a4)
+2019-12-31T20:45:28.5822609+05:30 0HLSE0H2E9IIQ:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:50104/  0 (ca22a1cb)
+2019-12-31T20:45:28.5822609+05:30 0HLSE0H2E9IIP:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/   (ca22a1cb)
+2019-12-31T20:46:29.4303643+05:30  [INF] > PaymentWeb@0.0.0 start C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp
+> ng serve "--port" "49860"
+
+** Angular Live Development Server is listening on localhost:49860, open your browser on http://localhost:49860/ **
+ (5e62b098)
+2019-12-31T20:47:35.7512056+05:30  [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-31T20:47:38.3308831+05:30  [INF] Executed DbCommand ("1,484"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0" (0723d8ff)
+2019-12-31T20:47:38.7555827+05:30  [INF] Executed DbCommand ("156"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2019-12-31T20:47:39.6896128+05:30  [INF] Starting @angular/cli on port 49886... (bd467a36)
+2019-12-31T20:47:40.2521481+05:30 0HLSE0I9O1DGG:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/   (ca22a1cb)
+2019-12-31T20:48:21.5977533+05:30  [INF] > PaymentWeb@0.0.0 start C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp
+> ng serve "--port" "49886"
+
+** Angular Live Development Server is listening on localhost:49886, open your browser on http://localhost:49886/ **
+ (fe3ab6b9)
+2019-12-31T20:48:32.8235719+05:30  [INF] i ∩╜ówdm∩╜ú: wait until bundle finished: /
+ (5b9bec14)
+2019-12-31T20:48:38.4711314+05:30  [INF] Date: 2019-12-31T15:18:38.352Z
+Hash: 01305ee7fd85adbd3bbe
+Time: 16523ms
+chunk {main} main.js, main.js.map (main) 50.8 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 130 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+ (bcf97566)
+2019-12-31T20:48:38.8558787+05:30 0HLSE0I9O1DGG:00000001 [INF] Request finished in 58604.0175ms 200 text/html; charset=UTF-8 (791a596a)
+2019-12-31T20:48:42.6934564+05:30 0HLSE0I9O1DGG:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:50104/vendor.js   (ca22a1cb)
+2019-12-31T20:48:42.7035239+05:30 0HLSE0I9O1DGH:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/runtime.js   (ca22a1cb)
+2019-12-31T20:48:42.7036461+05:30 0HLSE0I9O1DGI:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/polyfills.js   (ca22a1cb)
+2019-12-31T20:48:42.7037318+05:30 0HLSE0I9O1DGJ:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/styles.css   (ca22a1cb)
+2019-12-31T20:48:42.7038423+05:30 0HLSE0I9O1DGK:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/main.js   (ca22a1cb)
+2019-12-31T20:48:43.6634296+05:30 0HLSE0I9O1DGJ:00000001 [INF] The file "/styles.css" was not modified (f1f8d725)
+2019-12-31T20:48:43.6634198+05:30 0HLSE0I9O1DGH:00000001 [INF] The file "/runtime.js" was not modified (f1f8d725)
+2019-12-31T20:48:43.6634198+05:30 0HLSE0I9O1DGI:00000001 [INF] The file "/polyfills.js" was not modified (f1f8d725)
+2019-12-31T20:48:43.6643428+05:30 0HLSE0I9O1DGK:00000001 [INF] The file "/main.js" was not modified (f1f8d725)
+2019-12-31T20:48:43.6775986+05:30 0HLSE0I9O1DGG:00000002 [INF] The file "/vendor.js" was not modified (f1f8d725)
+2019-12-31T20:48:43.7073876+05:30 0HLSE0I9O1DGG:00000002 [INF] Request finished in 1013.8754ms 304 application/javascript (791a596a)
+2019-12-31T20:48:43.7073876+05:30 0HLSE0I9O1DGJ:00000001 [INF] Request finished in 1003.5497ms 304 text/css (791a596a)
+2019-12-31T20:48:43.7311358+05:30 0HLSE0I9O1DGI:00000001 [INF] Request finished in 1003.6128ms 304 application/javascript (791a596a)
+2019-12-31T20:48:43.7311515+05:30 0HLSE0I9O1DGK:00000001 [INF] Request finished in 1003.4177ms 304 application/javascript (791a596a)
+2019-12-31T20:48:43.7311358+05:30 0HLSE0I9O1DGH:00000001 [INF] Request finished in 1003.794ms 304 application/javascript (791a596a)
+2019-12-31T20:49:49.9190847+05:30  [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-31T20:49:51.4868257+05:30  [INF] Executed DbCommand ("825"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0" (0723d8ff)
+2019-12-31T20:49:51.7399970+05:30  [INF] Executed DbCommand ("173"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2019-12-31T20:49:52.6317466+05:30  [INF] Starting @angular/cli on port 49917... (5c33f483)
+2019-12-31T20:49:53.3864690+05:30 0HLSE0JHD0SV9:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:50104/  0 (ca22a1cb)
+2019-12-31T20:49:53.3864340+05:30 0HLSE0JHD0SV8:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/   (ca22a1cb)
+2019-12-31T20:49:53.5193724+05:30 0HLSE0JHD0SV9:00000001 [INF] Request finished in 137.5321ms 200  (791a596a)
+2019-12-31T20:50:28.0068632+05:30 0HLSE0JHD0SV9:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:50104/api/Users/RegisterUser application/json 106 (ca22a1cb)
+2019-12-31T20:50:28.2462622+05:30 0HLSE0JHD0SV9:00000002 [INF] Executing endpoint '"PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)"' (500cc934)
+2019-12-31T20:50:28.6611785+05:30 0HLSE0JHD0SV9:00000002 [INF] Route matched with "{action = \"RegisterUser\", controller = \"Users\", page = \"\"}". Executing action "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" (a44c0341)
+2019-12-31T20:50:30.2489981+05:30 0HLSE0JHD0SV9:00000002 [INF] Executing action method "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" with arguments (["Ramanarayanan"]) - Validation state: Valid (4e3479ed)
+2019-12-31T20:50:58.1447072+05:30 0HLSE0JHD0SV9:00000002 [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-31T20:50:59.9401329+05:30 0HLSE0JHD0SV9:00000002 [INF] Executed DbCommand ("1,295"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2019-12-31T20:51:00.2001651+05:30 0HLSE0JHD0SV9:00000002 [WRN] User "4b20535d-96d7-4f24-b76b-5bcf60d37889" validation failed: "DuplicateUserName". (5dc28e15)
+2019-12-31T20:51:21.9017216+05:30  [INF] > PaymentWeb@0.0.0 start C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp
+> ng serve "--port" "49917"
+
+** Angular Live Development Server is listening on localhost:49917, open your browser on http://localhost:49917/ **
+ (f2cbc54d)
+2019-12-31T20:51:21.9586514+05:30 0HLSE0JHD0SV9:00000002 [INF] Executed action method "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 51660.8462ms. (50a9e262)
+2019-12-31T20:51:22.1190091+05:30 0HLSE0JHD0SV9:00000002 [INF] Executing ObjectResult, writing value of type '"System.Boolean"'. (8a1b66c8)
+2019-12-31T20:51:22.5337153+05:30 0HLSE0JHD0SV9:00000002 [INF] Executed action "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" in 53827.1901ms (afa2e885)
+2019-12-31T20:51:22.5383320+05:30 0HLSE0JHD0SV9:00000002 [INF] Executed endpoint '"PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)"' (99874f2b)
+2019-12-31T20:51:22.5950649+05:30 0HLSE0JHD0SV9:00000002 [INF] Request finished in 54588.6691ms 200 application/json; charset=utf-8 (791a596a)
+2019-12-31T20:51:43.3767103+05:30  [INF] i ∩╜ówdm∩╜ú: wait until bundle finished: /
+ (5b9bec14)
+2019-12-31T20:51:54.3461311+05:30  [INF] Date: 2019-12-31T15:21:54.181Z
+Hash: 01305ee7fd85adbd3bbe
+Time: 37335ms
+chunk {main} main.js, main.js.map (main) 50.8 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 130 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+ (efea431c)
+2019-12-31T20:51:54.6982602+05:30 0HLSE0JHD0SV8:00000001 [INF] Request finished in 121317.8083ms 304  (791a596a)
+2019-12-31T20:52:12.3833474+05:30 0HLSE0JHD0SV9:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:50104/api/Users/RegisterUser application/json 90 (ca22a1cb)
+2019-12-31T20:52:12.3891676+05:30 0HLSE0JHD0SV9:00000003 [INF] Executing endpoint '"PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)"' (500cc934)
+2019-12-31T20:52:12.4903528+05:30 0HLSE0JHD0SV9:00000003 [INF] Route matched with "{action = \"RegisterUser\", controller = \"Users\", page = \"\"}". Executing action "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" (a44c0341)
+2019-12-31T20:52:12.5512623+05:30 0HLSE0JHD0SV9:00000003 [INF] Executing action method "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" with arguments (["guest"]) - Validation state: Valid (4e3479ed)
+2019-12-31T20:52:22.5555431+05:30 0HLSE0JHD0SV9:00000003 [WRN] User "95f2fc0c-eaca-454c-a2fd-5aedf238a526" password validation failed: "PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper". (2f223212)
+2019-12-31T20:55:03.1280850+05:30  [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-31T20:55:03.6106776+05:30  [INF] Executed DbCommand ("204"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0" (0723d8ff)
+2019-12-31T20:55:03.7587668+05:30  [INF] Executed DbCommand ("43"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2019-12-31T20:55:04.3449241+05:30  [INF] Starting @angular/cli on port 49962... (28064ee4)
+2019-12-31T20:55:04.8053656+05:30 0HLSE0ME6PJKM:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:50104/  0 (ca22a1cb)
+2019-12-31T20:55:04.8053656+05:30 0HLSE0ME6PJKL:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/   (ca22a1cb)
+2019-12-31T20:55:04.8352134+05:30 0HLSE0ME6PJKM:00000001 [INF] Request finished in 24.9009ms 200  (791a596a)
+2019-12-31T20:55:10.3470887+05:30 0HLSE0ME6PJKM:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:50104/api/Users/RegisterUser application/json 90 (ca22a1cb)
+2019-12-31T20:55:10.3719594+05:30 0HLSE0ME6PJKM:00000002 [INF] Executing endpoint '"PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)"' (500cc934)
+2019-12-31T20:55:10.5427756+05:30 0HLSE0ME6PJKM:00000002 [INF] Route matched with "{action = \"RegisterUser\", controller = \"Users\", page = \"\"}". Executing action "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" (a44c0341)
+2019-12-31T20:55:10.7338516+05:30 0HLSE0ME6PJKM:00000002 [INF] Executing action method "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" with arguments (["guest"]) - Validation state: Valid (4e3479ed)
+2019-12-31T20:55:24.4914862+05:30 0HLSE0ME6PJKM:00000002 [WRN] User "edbd18ce-2b96-4ade-874f-432ace192f61" password validation failed: "PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper". (2f223212)
+2019-12-31T21:12:52.2164529+05:30  [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-31T21:12:55.0898058+05:30  [INF] Executed DbCommand ("227"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0" (0723d8ff)
+2019-12-31T21:12:55.2533056+05:30  [INF] Executed DbCommand ("55"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2019-12-31T21:12:56.0205344+05:30  [INF] Starting @angular/cli on port 49993... (1db5b539)
+2019-12-31T21:12:57.0556363+05:30 0HLSE10DOQ4TU:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:50104/  0 (ca22a1cb)
+2019-12-31T21:12:57.0556141+05:30 0HLSE10DOQ4TT:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/   (ca22a1cb)
+2019-12-31T21:12:57.0955953+05:30 0HLSE10DOQ4TU:00000001 [INF] Request finished in 45.3882ms 200  (791a596a)
+2019-12-31T21:13:27.4441696+05:30  [INF] > PaymentWeb@0.0.0 start C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp
+> ng serve "--port" "49993"
+
+** Angular Live Development Server is listening on localhost:49993, open your browser on http://localhost:49993/ **
+ (8dc483f6)
+2019-12-31T21:13:39.8071117+05:30  [INF] i ∩╜ówdm∩╜ú: wait until bundle finished: /
+ (5b9bec14)
+2019-12-31T21:13:44.2544102+05:30  [INF] Date: 2019-12-31T15:43:44.185Z
+Hash: 01305ee7fd85adbd3bbe
+Time: 15904ms
+chunk {main} main.js, main.js.map (main) 50.8 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 130 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+ (33beaacd)
+2019-12-31T21:13:44.5490123+05:30 0HLSE10DOQ4TT:00000001 [INF] Request finished in 47498.3511ms 200 text/html; charset=UTF-8 (791a596a)
+2019-12-31T21:15:10.0834889+05:30 0HLSE10DOQ4TV:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:50104/api/Users/RegisterUser application/json 90 (ca22a1cb)
+2019-12-31T21:15:10.1317628+05:30 0HLSE10DOQ4TV:00000001 [INF] Executing endpoint '"PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)"' (500cc934)
+2019-12-31T21:15:10.5421645+05:30 0HLSE10DOQ4TV:00000001 [INF] Route matched with "{action = \"RegisterUser\", controller = \"Users\", page = \"\"}". Executing action "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" (a44c0341)
+2019-12-31T21:15:11.4137790+05:30 0HLSE10DOQ4TV:00000001 [INF] Executing action method "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" with arguments (["guest"]) - Validation state: Valid (4e3479ed)
+2019-12-31T21:15:20.6775812+05:30 0HLSE10DOQ4TV:00000001 [WRN] User "c5442633-4031-41e1-a98f-836a70c48c9c" password validation failed: "PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper". (2f223212)
+2019-12-31T21:15:20.6841544+05:30 0HLSE10DOQ4TV:00000001 [INF] Executed action method "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 9264.6343ms. (50a9e262)
+2019-12-31T21:15:20.6945322+05:30 0HLSE10DOQ4TV:00000001 [INF] Executing ObjectResult, writing value of type '"BillPaymentBusness.Models.UsersResult"'. (8a1b66c8)
+2019-12-31T21:15:20.7604569+05:30 0HLSE10DOQ4TV:00000001 [INF] Executed action "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" in 10202.2998ms (afa2e885)
+2019-12-31T21:15:20.7635340+05:30 0HLSE10DOQ4TV:00000001 [INF] Executed endpoint '"PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)"' (99874f2b)
+2019-12-31T21:15:20.7844349+05:30 0HLSE10DOQ4TV:00000001 [INF] Request finished in 10699.7801ms 200 application/json; charset=utf-8 (791a596a)
+2019-12-31T21:15:42.7765551+05:30 0HLSE10DOQ4TV:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:50104/api/Users/RegisterUser application/json 94 (ca22a1cb)
+2019-12-31T21:15:42.7826134+05:30 0HLSE10DOQ4TV:00000002 [INF] Executing endpoint '"PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)"' (500cc934)
+2019-12-31T21:15:42.7864869+05:30 0HLSE10DOQ4TV:00000002 [INF] Route matched with "{action = \"RegisterUser\", controller = \"Users\", page = \"\"}". Executing action "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" (a44c0341)
+2019-12-31T21:15:42.8977619+05:30 0HLSE10DOQ4TV:00000002 [INF] Executing action method "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" with arguments (["guest"]) - Validation state: Valid (4e3479ed)
+2019-12-31T21:15:44.8429794+05:30 0HLSE10DOQ4TV:00000002 [WRN] User "85d7e753-b52e-4138-8738-3a9a5b5ee2e6" password validation failed: "PasswordRequiresUpper". (2f223212)
+2019-12-31T21:15:44.8480509+05:30 0HLSE10DOQ4TV:00000002 [INF] Executed action method "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1945.2513ms. (50a9e262)
+2019-12-31T21:15:44.8524776+05:30 0HLSE10DOQ4TV:00000002 [INF] Executing ObjectResult, writing value of type '"BillPaymentBusness.Models.UsersResult"'. (8a1b66c8)
+2019-12-31T21:15:44.8601799+05:30 0HLSE10DOQ4TV:00000002 [INF] Executed action "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" in 2066.397ms (afa2e885)
+2019-12-31T21:15:44.8871245+05:30 0HLSE10DOQ4TV:00000002 [INF] Executed endpoint '"PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)"' (99874f2b)
+2019-12-31T21:15:44.8935146+05:30 0HLSE10DOQ4TV:00000002 [INF] Request finished in 2114.6026ms 200 application/json; charset=utf-8 (791a596a)
+2019-12-31T21:15:55.2972056+05:30 0HLSE10DOQ4TV:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:50104/api/Users/RegisterUser application/json 94 (ca22a1cb)
+2019-12-31T21:15:55.3044709+05:30 0HLSE10DOQ4TV:00000003 [INF] Executing endpoint '"PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)"' (500cc934)
+2019-12-31T21:15:55.3094060+05:30 0HLSE10DOQ4TV:00000003 [INF] Route matched with "{action = \"RegisterUser\", controller = \"Users\", page = \"\"}". Executing action "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" (a44c0341)
+2019-12-31T21:15:55.3399554+05:30 0HLSE10DOQ4TV:00000003 [INF] Executing action method "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" with arguments (["guest"]) - Validation state: Valid (4e3479ed)
+2019-12-31T21:15:59.8762062+05:30 0HLSE10DOQ4TV:00000003 [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-31T21:16:00.5165086+05:30 0HLSE10DOQ4TV:00000003 [INF] Executed DbCommand ("405"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2019-12-31T21:16:01.2237529+05:30 0HLSE10DOQ4TV:00000003 [INF] Executed DbCommand ("503"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);" (0723d8ff)
+2019-12-31T21:16:01.2800715+05:30 0HLSE10DOQ4TV:00000003 [INF] Executed action method "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 5935.349ms. (50a9e262)
+2019-12-31T21:16:01.2876891+05:30 0HLSE10DOQ4TV:00000003 [INF] Executing ObjectResult, writing value of type '"BillPaymentBusness.Models.UsersResult"'. (8a1b66c8)
+2019-12-31T21:16:01.2938476+05:30 0HLSE10DOQ4TV:00000003 [INF] Executed action "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" in 5980.0225ms (afa2e885)
+2019-12-31T21:16:01.2970148+05:30 0HLSE10DOQ4TV:00000003 [INF] Executed endpoint '"PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)"' (99874f2b)
+2019-12-31T21:16:01.3309760+05:30 0HLSE10DOQ4TV:00000003 [INF] Request finished in 6033.7763ms 200 application/json; charset=utf-8 (791a596a)
+2019-12-31T21:19:53.7205968+05:30 0HLSE10DOQ4U0:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:50104/api/CardPayment/AddCardDetails application/json 110 (ca22a1cb)
+2019-12-31T21:19:53.7245203+05:30 0HLSE10DOQ4U0:00000001 [INF] Executing endpoint '"PaymentWeb.Controllers.CardPaymentController.AddCardDetails (PaymentWeb)"' (500cc934)
+2019-12-31T21:19:53.7301480+05:30 0HLSE10DOQ4U0:00000001 [INF] Route matched with "{action = \"AddCardDetails\", controller = \"CardPayment\", page = \"\"}". Executing action "PaymentWeb.Controllers.CardPaymentController.AddCardDetails (PaymentWeb)" (a44c0341)
+2019-12-31T21:19:53.8749674+05:30 0HLSE10DOQ4U0:00000001 [INF] Executing action method "PaymentWeb.Controllers.CardPaymentController.AddCardDetails (PaymentWeb)" with arguments (["BillPaymentBusness.Models.CardPaymentModel"]) - Validation state: Valid (4e3479ed)
+2019-12-31T21:23:12.0904053+05:30  [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-31T21:23:12.6467813+05:30  [INF] Executed DbCommand ("238"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0" (0723d8ff)
+2019-12-31T21:23:12.7424997+05:30  [INF] Executed DbCommand ("20"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2019-12-31T21:23:13.1049827+05:30  [INF] Starting @angular/cli on port 50026... (fe9eb2ef)
+2019-12-31T21:23:13.4325078+05:30 0HLSE165F14UM:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:50104/  0 (ca22a1cb)
+2019-12-31T21:23:13.4325137+05:30 0HLSE165F14UL:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/   (ca22a1cb)
+2019-12-31T21:23:13.4766430+05:30 0HLSE165F14UM:00000001 [INF] Request finished in 49.5057ms 200  (791a596a)
+2019-12-31T21:23:50.9578472+05:30  [INF] > PaymentWeb@0.0.0 start C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp
+> ng serve "--port" "50026"
+
+** Angular Live Development Server is listening on localhost:50026, open your browser on http://localhost:50026/ **
+ (8d3b269f)
+2019-12-31T21:24:03.6729155+05:30  [INF] i ∩╜ówdm∩╜ú: wait until bundle finished: /
+ (5b9bec14)
+2019-12-31T21:24:09.6005963+05:30  [INF] Date: 2019-12-31T15:54:09.549Z
+Hash: 01305ee7fd85adbd3bbe
+Time: 18003ms
+chunk {main} main.js, main.js.map (main) 50.8 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 130 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+ (98ec7051)
+2019-12-31T21:24:09.9789402+05:30 0HLSE165F14UL:00000001 [INF] Request finished in 56552.3252ms 304  (791a596a)
+2019-12-31T21:24:52.9635894+05:30 0HLSE165F14UL:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:50104/api/CardPayment/AddCardDetails application/json 110 (ca22a1cb)
+2019-12-31T21:24:53.0504536+05:30 0HLSE165F14UL:00000002 [INF] Executing endpoint '"PaymentWeb.Controllers.CardPaymentController.AddCardDetails (PaymentWeb)"' (500cc934)
+2019-12-31T21:24:53.1948333+05:30 0HLSE165F14UL:00000002 [INF] Route matched with "{action = \"AddCardDetails\", controller = \"CardPayment\", page = \"\"}". Executing action "PaymentWeb.Controllers.CardPaymentController.AddCardDetails (PaymentWeb)" (a44c0341)
+2019-12-31T21:24:53.7753947+05:30 0HLSE165F14UL:00000002 [INF] Executing action method "PaymentWeb.Controllers.CardPaymentController.AddCardDetails (PaymentWeb)" with arguments (["BillPaymentBusness.Models.CardPaymentModel"]) - Validation state: Valid (4e3479ed)
+2019-12-31T21:24:53.9149493+05:30 0HLSE165F14UL:00000002 [INF] Executed action method "PaymentWeb.Controllers.CardPaymentController.AddCardDetails (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 133.6506ms. (50a9e262)
+2019-12-31T21:24:53.9250475+05:30 0HLSE165F14UL:00000002 [INF] Executing ObjectResult, writing value of type '"System.Boolean"'. (8a1b66c8)
+2019-12-31T21:24:53.9591375+05:30 0HLSE165F14UL:00000002 [INF] Executed action "PaymentWeb.Controllers.CardPaymentController.AddCardDetails (PaymentWeb)" in 757.0249ms (afa2e885)
+2019-12-31T21:24:53.9616504+05:30 0HLSE165F14UL:00000002 [INF] Executed endpoint '"PaymentWeb.Controllers.CardPaymentController.AddCardDetails (PaymentWeb)"' (99874f2b)
+2019-12-31T21:24:53.9695404+05:30 0HLSE165F14UL:00000002 [INF] Request finished in 1001.7883ms 200 application/json; charset=utf-8 (791a596a)
+2019-12-31T21:25:49.7211128+05:30 0HLSE165F14UL:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:50104/api/CardPayment/GetAllCardDetails application/json 110 (ca22a1cb)
+2019-12-31T21:25:49.7297501+05:30 0HLSE165F14UL:00000003 [INF] Executing endpoint '"PaymentWeb.Controllers.CardPaymentController.GetAllCardDetails (PaymentWeb)"' (500cc934)
+2019-12-31T21:25:49.7392093+05:30 0HLSE165F14UL:00000003 [INF] Route matched with "{action = \"GetAllCardDetails\", controller = \"CardPayment\", page = \"\"}". Executing action "PaymentWeb.Controllers.CardPaymentController.GetAllCardDetails (PaymentWeb)" (a44c0341)
+2019-12-31T21:25:49.7844094+05:30 0HLSE165F14UL:00000003 [INF] Executing action method "PaymentWeb.Controllers.CardPaymentController.GetAllCardDetails (PaymentWeb)" with arguments ([""]) - Validation state: Valid (4e3479ed)
+2019-12-31T21:25:50.9426185+05:30 0HLSE165F14UL:00000003 [INF] Executed action method "PaymentWeb.Controllers.CardPaymentController.GetAllCardDetails (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1154.376ms. (50a9e262)
+2019-12-31T21:25:50.9469508+05:30 0HLSE165F14UL:00000003 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[BillPaymentBusness.Models.CardPaymentModel, BillPaymentBusness, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-12-31T21:25:50.9652129+05:30 0HLSE165F14UL:00000003 [INF] Executed action "PaymentWeb.Controllers.CardPaymentController.GetAllCardDetails (PaymentWeb)" in 1221.3908ms (afa2e885)
+2019-12-31T21:25:50.9698216+05:30 0HLSE165F14UL:00000003 [INF] Executed endpoint '"PaymentWeb.Controllers.CardPaymentController.GetAllCardDetails (PaymentWeb)"' (99874f2b)
+2019-12-31T21:25:50.9735956+05:30 0HLSE165F14UL:00000003 [INF] Request finished in 1252.9254ms 200 application/json; charset=utf-8 (791a596a)
+2019-12-31T21:25:50.9807862+05:30  [INF] Connection id ""0HLSE165F14UL"", Request id ""0HLSE165F14UL:00000003"": the application completed without reading the entire request body. (54ac9468)
+2019-12-31T21:26:05.7466986+05:30 0HLSE165F14UL:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:50104/api/CardPayment/GetAllCardDetails application/json 110 (ca22a1cb)
+2019-12-31T21:26:05.7510791+05:30 0HLSE165F14UL:00000004 [INF] Executing endpoint '"PaymentWeb.Controllers.CardPaymentController.GetAllCardDetails (PaymentWeb)"' (500cc934)
+2019-12-31T21:26:05.7556174+05:30 0HLSE165F14UL:00000004 [INF] Route matched with "{action = \"GetAllCardDetails\", controller = \"CardPayment\", page = \"\"}". Executing action "PaymentWeb.Controllers.CardPaymentController.GetAllCardDetails (PaymentWeb)" (a44c0341)
+2019-12-31T21:26:05.8244577+05:30 0HLSE165F14UL:00000004 [INF] Executing action method "PaymentWeb.Controllers.CardPaymentController.GetAllCardDetails (PaymentWeb)" with arguments ([""]) - Validation state: Valid (4e3479ed)
+2019-12-31T21:26:25.1087045+05:30 0HLSE165F14UL:00000004 [INF] Executed action method "PaymentWeb.Controllers.CardPaymentController.GetAllCardDetails (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 19278.3727ms. (50a9e262)
+2019-12-31T21:26:25.1136328+05:30 0HLSE165F14UL:00000004 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[BillPaymentBusness.Models.CardPaymentModel, BillPaymentBusness, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-12-31T21:26:25.1211797+05:30 0HLSE165F14UL:00000004 [INF] Executed action "PaymentWeb.Controllers.CardPaymentController.GetAllCardDetails (PaymentWeb)" in 19358.3708ms (afa2e885)
+2019-12-31T21:26:25.1271555+05:30 0HLSE165F14UL:00000004 [INF] Executed endpoint '"PaymentWeb.Controllers.CardPaymentController.GetAllCardDetails (PaymentWeb)"' (99874f2b)
+2019-12-31T21:26:25.1328459+05:30 0HLSE165F14UL:00000004 [INF] Request finished in 19384.0416ms 200 application/json; charset=utf-8 (791a596a)
+2019-12-31T21:26:25.1379597+05:30  [INF] Connection id ""0HLSE165F14UL"", Request id ""0HLSE165F14UL:00000004"": the application completed without reading the entire request body. (54ac9468)
+2019-12-31T21:30:10.3855285+05:30  [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-31T21:30:10.9055339+05:30  [INF] Executed DbCommand ("257"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0" (0723d8ff)
+2019-12-31T21:30:11.0082493+05:30  [INF] Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2019-12-31T21:30:11.4737143+05:30  [INF] Starting @angular/cli on port 50070... (d579b5d0)
+2019-12-31T21:30:11.9561548+05:30 0HLSE1A25S350:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/   (ca22a1cb)
+2019-12-31T21:30:11.9561763+05:30 0HLSE1A25S34V:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:50104/  0 (ca22a1cb)
+2019-12-31T21:30:12.0013898+05:30 0HLSE1A25S34V:00000001 [INF] Request finished in 49.2431ms 200  (791a596a)
+2019-12-31T21:30:37.9710721+05:30 0HLSE1A25S34V:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:50104/api/CardPayment/AddCardDetails application/json 110 (ca22a1cb)
+2019-12-31T21:30:38.0025874+05:30 0HLSE1A25S34V:00000002 [INF] Executing endpoint '"PaymentWeb.Controllers.CardPaymentController.AddCardDetails (PaymentWeb)"' (500cc934)
+2019-12-31T21:30:38.1757014+05:30 0HLSE1A25S34V:00000002 [INF] Route matched with "{action = \"AddCardDetails\", controller = \"CardPayment\", page = \"\"}". Executing action "PaymentWeb.Controllers.CardPaymentController.AddCardDetails (PaymentWeb)" (a44c0341)
+2019-12-31T21:30:38.8805870+05:30 0HLSE1A25S34V:00000002 [INF] Executing action method "PaymentWeb.Controllers.CardPaymentController.AddCardDetails (PaymentWeb)" with arguments (["BillPaymentBusness.Models.CardPaymentModel"]) - Validation state: Valid (4e3479ed)
+2019-12-31T21:33:03.4166215+05:30  [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-31T21:33:04.0603516+05:30  [INF] Executed DbCommand ("168"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0" (0723d8ff)
+2019-12-31T21:33:04.2330235+05:30  [INF] Executed DbCommand ("100"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2019-12-31T21:33:04.8353322+05:30  [INF] Starting @angular/cli on port 50082... (445e54c2)
+2019-12-31T21:33:06.1518949+05:30 0HLSE1BLT5HRM:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:50104/  0 (ca22a1cb)
+2019-12-31T21:33:06.1518989+05:30 0HLSE1BLT5HRN:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/   (ca22a1cb)
+2019-12-31T21:33:06.1861967+05:30 0HLSE1BLT5HRM:00000001 [INF] Request finished in 37.7366ms 200  (791a596a)
+2019-12-31T21:33:30.6141964+05:30 0HLSE1BLT5HRM:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:50104/api/CardPayment/AddCardDetails application/json 110 (ca22a1cb)
+2019-12-31T21:33:30.6558394+05:30 0HLSE1BLT5HRM:00000002 [INF] Executing endpoint '"PaymentWeb.Controllers.CardPaymentController.AddCardDetails (PaymentWeb)"' (500cc934)
+2019-12-31T21:33:30.7036355+05:30 0HLSE1BLT5HRM:00000002 [INF] Route matched with "{action = \"AddCardDetails\", controller = \"CardPayment\", page = \"\"}". Executing action "PaymentWeb.Controllers.CardPaymentController.AddCardDetails (PaymentWeb)" (a44c0341)
+2019-12-31T21:33:31.2952101+05:30 0HLSE1BLT5HRM:00000002 [INF] Executing action method "PaymentWeb.Controllers.CardPaymentController.AddCardDetails (PaymentWeb)" with arguments (["BillPaymentBusness.Models.CardPaymentModel"]) - Validation state: Valid (4e3479ed)
+2019-12-31T21:33:32.3280043+05:30  [INF] > PaymentWeb@0.0.0 start C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp
+> ng serve "--port" "50082"
+
+** Angular Live Development Server is listening on localhost:50082, open your browser on http://localhost:50082/ **
+ (b111416a)
+2019-12-31T21:33:32.3292909+05:30 0HLSE1BLT5HRM:00000002 [INF] Executed action method "PaymentWeb.Controllers.CardPaymentController.AddCardDetails (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 998.7703ms. (50a9e262)
+2019-12-31T21:33:32.3682842+05:30 0HLSE1BLT5HRM:00000002 [INF] Executing ObjectResult, writing value of type '"System.Boolean"'. (8a1b66c8)
+2019-12-31T21:33:32.7607021+05:30 0HLSE1BLT5HRM:00000002 [INF] Executed action "PaymentWeb.Controllers.CardPaymentController.AddCardDetails (PaymentWeb)" in 2016.3876ms (afa2e885)
+2019-12-31T21:33:32.7637459+05:30 0HLSE1BLT5HRM:00000002 [INF] Executed endpoint '"PaymentWeb.Controllers.CardPaymentController.AddCardDetails (PaymentWeb)"' (99874f2b)
+2019-12-31T21:33:32.8024764+05:30 0HLSE1BLT5HRM:00000002 [INF] Request finished in 2161.1881ms 200 application/json; charset=utf-8 (791a596a)
+2019-12-31T21:33:52.0233191+05:30  [INF] i ∩╜ówdm∩╜ú: wait until bundle finished: /
+ (5b9bec14)
+2019-12-31T21:34:00.9516908+05:30  [INF] Date: 2019-12-31T16:04:00.143Z
+Hash: 01305ee7fd85adbd3bbe
+Time: 26286ms
+chunk {main} main.js, main.js.map (main) 50.8 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 130 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+ (53b9a082)
+2019-12-31T21:34:01.2435881+05:30 0HLSE1BLT5HRN:00000001 [INF] Request finished in 55095.5901ms 200 text/html; charset=UTF-8 (791a596a)
+2019-12-31T21:36:45.7136210+05:30 0HLSE1BLT5HRO:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:50104/api/Payment/MakeCardPayment application/json 108 (ca22a1cb)
+2019-12-31T21:36:45.8024756+05:30 0HLSE1BLT5HRO:00000001 [INF] Executing endpoint '"PaymentWeb.Controllers.PaymentController.MakeCardPayment (PaymentWeb)"' (500cc934)
+2019-12-31T21:36:45.8228138+05:30 0HLSE1BLT5HRO:00000001 [INF] Route matched with "{action = \"MakeCardPayment\", controller = \"Payment\", page = \"\"}". Executing action "PaymentWeb.Controllers.PaymentController.MakeCardPayment (PaymentWeb)" (a44c0341)
+2019-12-31T21:36:45.8747351+05:30 0HLSE1BLT5HRO:00000001 [INF] Executing action method "PaymentWeb.Controllers.PaymentController.MakeCardPayment (PaymentWeb)" with arguments (["BillPaymentBusness.Models.CardPaymentModel"]) - Validation state: Valid (4e3479ed)
+2019-12-31T21:36:46.6555874+05:30 0HLSE1BLT5HRO:00000001 [INF] Executed action method "PaymentWeb.Controllers.PaymentController.MakeCardPayment (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 777.1537ms. (50a9e262)
+2019-12-31T21:36:46.6583574+05:30 0HLSE1BLT5HRO:00000001 [INF] Executing ObjectResult, writing value of type '"System.Boolean"'. (8a1b66c8)
+2019-12-31T21:36:46.6614758+05:30 0HLSE1BLT5HRO:00000001 [INF] Executed action "PaymentWeb.Controllers.PaymentController.MakeCardPayment (PaymentWeb)" in 835.9316ms (afa2e885)
+2019-12-31T21:36:46.6643840+05:30 0HLSE1BLT5HRO:00000001 [INF] Executed endpoint '"PaymentWeb.Controllers.PaymentController.MakeCardPayment (PaymentWeb)"' (99874f2b)
+2019-12-31T21:36:46.6684804+05:30 0HLSE1BLT5HRO:00000001 [INF] Request finished in 957.2501ms 200 application/json; charset=utf-8 (791a596a)
+2019-12-31T21:37:12.7691102+05:30 0HLSE1BLT5HRO:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:50104/api/Payment/MakeCardPayment application/json 115 (ca22a1cb)
+2019-12-31T21:37:12.7750471+05:30 0HLSE1BLT5HRO:00000002 [INF] Executing endpoint '"PaymentWeb.Controllers.PaymentController.MakeCardPayment (PaymentWeb)"' (500cc934)
+2019-12-31T21:37:12.7795610+05:30 0HLSE1BLT5HRO:00000002 [INF] Route matched with "{action = \"MakeCardPayment\", controller = \"Payment\", page = \"\"}". Executing action "PaymentWeb.Controllers.PaymentController.MakeCardPayment (PaymentWeb)" (a44c0341)
+2019-12-31T21:37:12.8148770+05:30 0HLSE1BLT5HRO:00000002 [INF] Executing action method "PaymentWeb.Controllers.PaymentController.MakeCardPayment (PaymentWeb)" with arguments (["BillPaymentBusness.Models.CardPaymentModel"]) - Validation state: Valid (4e3479ed)
+2019-12-31T21:37:13.3579567+05:30 0HLSE1BLT5HRO:00000002 [INF] Executed action method "PaymentWeb.Controllers.PaymentController.MakeCardPayment (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 535.9572ms. (50a9e262)
+2019-12-31T21:37:13.3664291+05:30 0HLSE1BLT5HRO:00000002 [INF] Executing ObjectResult, writing value of type '"System.Boolean"'. (8a1b66c8)
+2019-12-31T21:37:13.3721734+05:30 0HLSE1BLT5HRO:00000002 [INF] Executed action "PaymentWeb.Controllers.PaymentController.MakeCardPayment (PaymentWeb)" in 586.9949ms (afa2e885)
+2019-12-31T21:37:13.3758150+05:30 0HLSE1BLT5HRO:00000002 [INF] Executed endpoint '"PaymentWeb.Controllers.PaymentController.MakeCardPayment (PaymentWeb)"' (99874f2b)
+2019-12-31T21:37:13.3837686+05:30 0HLSE1BLT5HRO:00000002 [INF] Request finished in 612.0698ms 200 application/json; charset=utf-8 (791a596a)
+2019-12-31T23:03:46.3366233+05:30  [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-31T23:03:48.3939102+05:30  [INF] Executed DbCommand ("1,165"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0" (0723d8ff)
+2019-12-31T23:03:49.0494960+05:30  [INF] Executed DbCommand ("322"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2019-12-31T23:03:50.1022896+05:30  [INF] Starting @angular/cli on port 50417... (e2562c78)
+2019-12-31T23:03:51.8998300+05:30 0HLSE2UCVROUE:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/   (ca22a1cb)
+2019-12-31T23:03:51.8998300+05:30 0HLSE2UCVROUD:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:50104/  0 (ca22a1cb)
+2019-12-31T23:03:52.0360815+05:30 0HLSE2UCVROUD:00000001 [INF] Request finished in 138.7746ms 200  (791a596a)
+2019-12-31T23:04:48.4313495+05:30  [INF] > PaymentWeb@0.0.0 start C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp
+> ng serve "--port" "50417"
+
+** Angular Live Development Server is listening on localhost:50417, open your browser on http://localhost:50417/ **
+ (827a172b)
+2019-12-31T23:05:11.5218106+05:30  [INF] i ∩╜ówdm∩╜ú: wait until bundle finished: /
+ (5b9bec14)
+2019-12-31T23:05:20.1328856+05:30  [INF] Date: 2019-12-31T17:35:19.933Z
+Hash: c1bf366284c9532ed3be
+Time: 30100ms
+chunk {main} main.js, main.js.map (main) 63 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 130 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+ (5a5b03cf)
+2019-12-31T23:05:20.5126033+05:30 0HLSE2UCVROUE:00000001 [INF] Request finished in 88614.9854ms 304  (791a596a)
+2019-12-31T23:05:31.0458865+05:30 0HLSE2UCVROUE:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:50104/api/users/authenticate application/json 57 (ca22a1cb)
+2019-12-31T23:05:31.1018658+05:30 0HLSE2UCVROUE:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2019-12-31T23:05:31.1642667+05:30 0HLSE2UCVROUE:00000002 [INF] Executing endpoint '"PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)"' (500cc934)
+2019-12-31T23:05:31.3217137+05:30 0HLSE2UCVROUE:00000002 [INF] Route matched with "{action = \"Authenticate\", controller = \"Users\", page = \"\"}". Executing action "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)" (a44c0341)
+2019-12-31T23:05:31.9511759+05:30 0HLSE2UCVROUE:00000002 [INF] Executing action method "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)" with arguments (["PaymentWeb.Model.AuthenticateModel"]) - Validation state: Valid (4e3479ed)
+2019-12-31T23:05:31.9753650+05:30 0HLSE2UCVROUE:00000002 [WRN] username (a8044d97)
+2019-12-31T23:05:31.9790037+05:30 0HLSE2UCVROUE:00000002 [WRN] Password (eccd0209)
+2019-12-31T23:05:47.3515677+05:30 0HLSE2UCVROUE:00000002 [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-31T23:05:49.2179491+05:30 0HLSE2UCVROUE:00000002 [INF] Executed DbCommand ("851"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2019-12-31T23:05:49.8126766+05:30 0HLSE2UCVROUE:00000002 [INF] Executed action method "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 17854.29ms. (50a9e262)
+2019-12-31T23:05:49.8799528+05:30 0HLSE2UCVROUE:00000002 [INF] Executing ObjectResult, writing value of type '"UsersDataAcccesLayer.User"'. (8a1b66c8)
+2019-12-31T23:05:50.0038977+05:30 0HLSE2UCVROUE:00000002 [INF] Executed action "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)" in 18675.0287ms (afa2e885)
+2019-12-31T23:05:50.0099418+05:30 0HLSE2UCVROUE:00000002 [INF] Executed endpoint '"PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)"' (99874f2b)
+2019-12-31T23:05:50.0177082+05:30 0HLSE2UCVROUE:00000002 [INF] Request finished in 18980.7117ms 200 application/json; charset=utf-8 (791a596a)
+2019-12-31T23:05:50.2818444+05:30 0HLSE2UCVROUF:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/api/SampleData/WeatherForecasts   (ca22a1cb)
+2019-12-31T23:05:50.3329187+05:30 0HLSE2UCVROUF:00000001 [INF] Successfully validated the token. (60169667)
+2019-12-31T23:05:50.3698647+05:30 0HLSE2UCVROUF:00000001 [INF] Executing endpoint '"PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)"' (500cc934)
+2019-12-31T23:05:50.3737036+05:30 0HLSE2UCVROUF:00000001 [INF] Route matched with "{action = \"WeatherForecasts\", controller = \"SampleData\", page = \"\"}". Executing action "PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)" (a44c0341)
+2019-12-31T23:05:50.3845577+05:30 0HLSE2UCVROUF:00000001 [INF] Authorization was successful. (0d575a54)
+2019-12-31T23:05:50.4331081+05:30 0HLSE2UCVROUF:00000001 [INF] Executing action method "PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)" - Validation state: Valid (dad538d7)
+2019-12-31T23:05:50.4384370+05:30 0HLSE2UCVROUF:00000001 [INF] Executed action method "PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1.8003ms. (50a9e262)
+2019-12-31T23:05:50.4411472+05:30 0HLSE2UCVROUF:00000001 [INF] Executing ObjectResult, writing value of type '"System.Linq.Enumerable+SelectIPartitionIterator`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[PaymentWeb.Controllers.SampleDataController+WeatherForecast, PaymentWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-12-31T23:05:50.4748134+05:30 0HLSE2UCVROUF:00000001 [INF] Executed action "PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)" in 96.7957ms (afa2e885)
+2019-12-31T23:05:50.4781604+05:30 0HLSE2UCVROUF:00000001 [INF] Executed endpoint '"PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)"' (99874f2b)
+2019-12-31T23:05:50.4844682+05:30 0HLSE2UCVROUF:00000001 [INF] Request finished in 199.6534ms 200 application/json; charset=utf-8 (791a596a)
+2019-12-31T23:06:12.0860457+05:30 0HLSE2UCVROUF:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:50104/api/users/authenticate application/json 43 (ca22a1cb)
+2019-12-31T23:06:12.0893426+05:30 0HLSE2UCVROUF:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2019-12-31T23:06:12.0927107+05:30 0HLSE2UCVROUF:00000002 [INF] Executing endpoint '"PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)"' (500cc934)
+2019-12-31T23:06:12.0949951+05:30 0HLSE2UCVROUF:00000002 [INF] Route matched with "{action = \"Authenticate\", controller = \"Users\", page = \"\"}". Executing action "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)" (a44c0341)
+2019-12-31T23:06:12.1122040+05:30 0HLSE2UCVROUF:00000002 [INF] Executing action method "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)" with arguments (["PaymentWeb.Model.AuthenticateModel"]) - Validation state: Valid (4e3479ed)
+2019-12-31T23:06:12.1165494+05:30 0HLSE2UCVROUF:00000002 [WRN] username (a8044d97)
+2019-12-31T23:06:12.1189427+05:30 0HLSE2UCVROUF:00000002 [WRN] Password (eccd0209)
+2019-12-31T23:06:24.8635426+05:30 0HLSE2UCVROUF:00000002 [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-31T23:06:24.8925315+05:30 0HLSE2UCVROUF:00000002 [INF] Executed DbCommand ("24"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2019-12-31T23:06:24.9042053+05:30 0HLSE2UCVROUF:00000002 [INF] Executed action method "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 12787.959ms. (50a9e262)
+2019-12-31T23:06:24.9075965+05:30 0HLSE2UCVROUF:00000002 [INF] Executing ObjectResult, writing value of type '"UsersDataAcccesLayer.User"'. (8a1b66c8)
+2019-12-31T23:06:24.9208002+05:30 0HLSE2UCVROUF:00000002 [INF] Executed action "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)" in 12812.9372ms (afa2e885)
+2019-12-31T23:06:24.9241625+05:30 0HLSE2UCVROUF:00000002 [INF] Executed endpoint '"PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)"' (99874f2b)
+2019-12-31T23:06:24.9317225+05:30 0HLSE2UCVROUF:00000002 [INF] Request finished in 12842.3674ms 200 application/json; charset=utf-8 (791a596a)
+2019-12-31T23:06:40.2421032+05:30 0HLSE2UCVROUF:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:50104/api/SampleData/WeatherForecasts   (ca22a1cb)
+2019-12-31T23:06:40.2456587+05:30 0HLSE2UCVROUF:00000003 [INF] Successfully validated the token. (60169667)
+2019-12-31T23:06:40.2534802+05:30 0HLSE2UCVROUF:00000003 [INF] Executing endpoint '"PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)"' (500cc934)
+2019-12-31T23:06:40.2588730+05:30 0HLSE2UCVROUF:00000003 [INF] Route matched with "{action = \"WeatherForecasts\", controller = \"SampleData\", page = \"\"}". Executing action "PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)" (a44c0341)
+2019-12-31T23:06:40.2626737+05:30 0HLSE2UCVROUF:00000003 [INF] Authorization was successful. (0d575a54)
+2019-12-31T23:06:40.2813992+05:30 0HLSE2UCVROUF:00000003 [INF] Executing action method "PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)" - Validation state: Valid (dad538d7)
+2019-12-31T23:06:40.2850944+05:30 0HLSE2UCVROUF:00000003 [INF] Executed action method "PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.0517ms. (50a9e262)
+2019-12-31T23:06:40.2887397+05:30 0HLSE2UCVROUF:00000003 [INF] Executing ObjectResult, writing value of type '"System.Linq.Enumerable+SelectIPartitionIterator`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[PaymentWeb.Controllers.SampleDataController+WeatherForecast, PaymentWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-12-31T23:06:40.2922978+05:30 0HLSE2UCVROUF:00000003 [INF] Executed action "PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)" in 30.139ms (afa2e885)
+2019-12-31T23:06:40.2948374+05:30 0HLSE2UCVROUF:00000003 [INF] Executed endpoint '"PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)"' (99874f2b)
+2019-12-31T23:06:40.2986847+05:30 0HLSE2UCVROUF:00000003 [INF] Request finished in 57.4216ms 200 application/json; charset=utf-8 (791a596a)
+2019-12-31T23:06:56.7842413+05:30 0HLSE2UCVROUF:00000004 [INF] Request starting HTTP/1.1 POST http://localhost:50104/api/users/authenticate application/json 43 (ca22a1cb)
+2019-12-31T23:06:56.7897132+05:30 0HLSE2UCVROUF:00000004 [INF] CORS policy execution successful. (5409d6ef)
+2019-12-31T23:06:56.7963856+05:30 0HLSE2UCVROUF:00000004 [INF] Executing endpoint '"PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)"' (500cc934)
+2019-12-31T23:06:56.8021963+05:30 0HLSE2UCVROUF:00000004 [INF] Route matched with "{action = \"Authenticate\", controller = \"Users\", page = \"\"}". Executing action "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)" (a44c0341)
+2019-12-31T23:06:56.8251276+05:30 0HLSE2UCVROUF:00000004 [INF] Executing action method "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)" with arguments (["PaymentWeb.Model.AuthenticateModel"]) - Validation state: Valid (4e3479ed)
+2019-12-31T23:06:56.8345169+05:30 0HLSE2UCVROUF:00000004 [WRN] username (a8044d97)
+2019-12-31T23:06:56.8389885+05:30 0HLSE2UCVROUF:00000004 [WRN] Password (eccd0209)
+2019-12-31T23:06:59.7052321+05:30 0HLSE2UCVROUF:00000004 [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-31T23:06:59.7639304+05:30 0HLSE2UCVROUF:00000004 [INF] Executed DbCommand ("26"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2019-12-31T23:07:08.8304683+05:30 0HLSE2UCVROUF:00000004 [INF] Executed action method "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 11900.0855ms. (50a9e262)
+2019-12-31T23:07:08.8392802+05:30 0HLSE2UCVROUF:00000004 [INF] Executing ObjectResult, writing value of type '"UsersDataAcccesLayer.User"'. (8a1b66c8)
+2019-12-31T23:07:08.8518089+05:30 0HLSE2UCVROUF:00000004 [INF] Executed action "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)" in 12037.4781ms (afa2e885)
+2019-12-31T23:07:08.8569777+05:30 0HLSE2UCVROUF:00000004 [INF] Executed endpoint '"PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)"' (99874f2b)
+2019-12-31T23:07:08.8629963+05:30 0HLSE2UCVROUF:00000004 [INF] Request finished in 12078.5442ms 200 application/json; charset=utf-8 (791a596a)
+2019-12-31T23:07:08.8944201+05:30 0HLSE2UCVROUF:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:50104/api/SampleData/WeatherForecasts   (ca22a1cb)
+2019-12-31T23:07:08.8982717+05:30 0HLSE2UCVROUF:00000005 [INF] Successfully validated the token. (60169667)
+2019-12-31T23:07:08.9022617+05:30 0HLSE2UCVROUF:00000005 [INF] Executing endpoint '"PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)"' (500cc934)
+2019-12-31T23:07:08.9072733+05:30 0HLSE2UCVROUF:00000005 [INF] Route matched with "{action = \"WeatherForecasts\", controller = \"SampleData\", page = \"\"}". Executing action "PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)" (a44c0341)
+2019-12-31T23:07:08.9101682+05:30 0HLSE2UCVROUF:00000005 [INF] Authorization was successful. (0d575a54)
+2019-12-31T23:07:08.9323256+05:30 0HLSE2UCVROUF:00000005 [INF] Executing action method "PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)" - Validation state: Valid (dad538d7)
+2019-12-31T23:07:08.9349042+05:30 0HLSE2UCVROUF:00000005 [INF] Executed action method "PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.0171ms. (50a9e262)
+2019-12-31T23:07:08.9386633+05:30 0HLSE2UCVROUF:00000005 [INF] Executing ObjectResult, writing value of type '"System.Linq.Enumerable+SelectIPartitionIterator`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[PaymentWeb.Controllers.SampleDataController+WeatherForecast, PaymentWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-12-31T23:07:08.9430491+05:30 0HLSE2UCVROUF:00000005 [INF] Executed action "PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)" in 31.8162ms (afa2e885)
+2019-12-31T23:07:08.9464950+05:30 0HLSE2UCVROUF:00000005 [INF] Executed endpoint '"PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)"' (99874f2b)
+2019-12-31T23:07:08.9525905+05:30 0HLSE2UCVROUF:00000005 [INF] Request finished in 58.388ms 200 application/json; charset=utf-8 (791a596a)
+2019-12-31T23:18:39.6159460+05:30  [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-12-31T23:18:42.0274410+05:30  [INF] Executed DbCommand ("530"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0" (0723d8ff)
+2019-12-31T23:18:42.5463300+05:30  [INF] Executed DbCommand ("168"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2019-12-31T23:18:43.7884861+05:30  [INF] Starting @angular/cli on port 50521... (97d9ec89)
+2019-12-31T23:18:46.3324964+05:30 0HLSE36NGB8BN:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:50104/  0 (ca22a1cb)
+2019-12-31T23:18:46.3324964+05:30 0HLSE36NGB8BM:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/   (ca22a1cb)
+2019-12-31T23:18:46.4754494+05:30 0HLSE36NGB8BN:00000001 [INF] Request finished in 146.5162ms 200  (791a596a)
+2019-12-31T23:21:49.1233411+05:30  [INF] > PaymentWeb@0.0.0 start C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp
+> ng serve "--port" "50521"
+
+** Angular Live Development Server is listening on localhost:50521, open your browser on http://localhost:50521/ **
+ (55f595bf)
+2019-12-31T23:22:09.6863939+05:30 0HLSE36NGB8BM:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.TimeoutException: The Angular CLI process did not start listening for requests within the timeout period of 20 seconds. Check the log output for error information.
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-12-31T23:22:10.1421068+05:30 0HLSE36NGB8BM:00000001 [INF] Request finished in 203813.0681ms 500 text/html; charset=utf-8 (791a596a)
+2019-12-31T23:22:30.5392751+05:30  [INF] Date: 2019-12-31T17:52:30.426Z
+Hash: c1bf366284c9532ed3be
+Time: 39537ms
+chunk {main} main.js, main.js.map (main) 63 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 130 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+ (5e163f8b)

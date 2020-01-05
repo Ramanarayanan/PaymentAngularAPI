@@ -1,0 +1,36 @@
+
+<div class="container box-shadow">
+ 
+  <table class='table table-striped' *ngIf="rechargeList">
+    <thead>
+      <tr>
+        <th>Operater</th>
+        <th>MRP</th>
+        <th>Validity</th>
+        <th>Description</th>
+        <th>Roaming</th>
+        <th>SMS</th>
+        <th>Data</th>
+        <th>Payment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let recharge of rechargeList">
+        <td>{{ recharge.operater }}</td>
+        <td>{{ recharge.mrp }}</td>
+        <td>{{ recharge.validateDays }}</td>
+        <td>{{ recharge.descriptions }}</td>
+        <td>{{ recharge.roaming }}</td>
+        <td>{{ recharge.sms }}</td>
+        <td>{{ recharge.data }}</td>
+        <td>
+          <input type="button" (click)="onSelect(recharge)" value="Pay" />
+        </td>
+
+      </tr>
+    </tbody>
+  </table>
+  <div *ngIf="rechargeList">
+    <app-payment [PreRechargePlans]="selectedPlan"></app-payment>
+  </div>
+</div>

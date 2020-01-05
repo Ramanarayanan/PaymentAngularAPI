@@ -1,0 +1,6 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=DESKTOP-89M5D8J\\SQLEXPRESS01; Database=Login;Trusted_Connection=True;MultipleActiveResultSets=true",
+    "PaymentConnection": "Server=DESKTOP-89M5D8J\\SQLEXPRESS01; Database=Payments;Trusted_Connection=True;MultipleActiveResultSets=true"
+  }
+}

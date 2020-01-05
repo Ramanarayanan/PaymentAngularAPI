@@ -1,0 +1,225 @@
+2020-01-02T22:55:09.0876835+05:30  [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-02T22:55:12.2175906+05:30  [INF] Executed DbCommand ("2,175"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0" (0723d8ff)
+2020-01-02T22:55:13.4619744+05:30  [INF] Executed DbCommand ("688"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2020-01-02T22:55:15.7633393+05:30  [INF] Starting @angular/cli on port 56166... (53fac14b)
+2020-01-02T22:55:18.2654215+05:30 0HLSFL2U9O02A:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/   (ca22a1cb)
+2020-01-02T22:55:18.2654182+05:30 0HLSFL2U9O029:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:50104/  0 (ca22a1cb)
+2020-01-02T22:55:18.5328361+05:30 0HLSFL2U9O029:00000001 [INF] Request finished in 269.5458ms 200  (791a596a)
+2020-01-02T22:56:09.2201743+05:30  [INF] > PaymentWeb@0.0.0 start C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp
+> ng serve "--port" "56166"
+
+** Angular Live Development Server is listening on localhost:56166, open your browser on http://localhost:56166/ **
+ (9101dbb4)
+2020-01-02T22:56:38.5954924+05:30  [INF] i ∩╜ówdm∩╜ú: wait until bundle finished: /
+ (5b9bec14)
+2020-01-02T22:56:44.4398055+05:30  [INF] Date: 2020-01-02T17:26:44.354Z
+Hash: 4c94263fcfb64b83e1dc
+Time: 33939ms
+chunk {main} main.js, main.js.map (main) 79.7 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 130 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+ (d95dfc49)
+2020-01-02T22:56:44.7981803+05:30 0HLSFL2U9O02A:00000001 [INF] Request finished in 86536.4051ms 304  (791a596a)
+2020-01-02T22:56:47.8338376+05:30 0HLSFL2U9O02A:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:50104/polyfills.js   (ca22a1cb)
+2020-01-02T22:56:48.0068005+05:30 0HLSFL2U9O02B:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/vendor.js   (ca22a1cb)
+2020-01-02T22:56:48.0106322+05:30 0HLSFL2U9O02C:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/styles.css   (ca22a1cb)
+2020-01-02T22:56:48.0264112+05:30 0HLSFL2U9O02D:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/runtime.js   (ca22a1cb)
+2020-01-02T22:56:48.0414911+05:30 0HLSFL2U9O02E:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/main.js   (ca22a1cb)
+2020-01-02T22:56:48.1883110+05:30 0HLSFL2U9O02D:00000001 [INF] Sending file. Request path: '"/runtime.js"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\runtime.js"' (27b0a520)
+2020-01-02T22:56:48.1914341+05:30 0HLSFL2U9O02D:00000001 [INF] Request finished in 177.8506ms 200 application/javascript (791a596a)
+2020-01-02T22:56:48.1956223+05:30 0HLSFL2U9O02C:00000001 [INF] Sending file. Request path: '"/styles.css"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\styles.css"' (27b0a520)
+2020-01-02T22:56:48.2003926+05:30 0HLSFL2U9O02E:00000001 [INF] Sending file. Request path: '"/main.js"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\main.js"' (27b0a520)
+2020-01-02T22:56:48.2017113+05:30 0HLSFL2U9O02C:00000001 [INF] Request finished in 188.5103ms 200 text/css (791a596a)
+2020-01-02T22:56:48.2043278+05:30 0HLSFL2U9O02E:00000001 [INF] Request finished in 166.173ms 200 application/javascript (791a596a)
+2020-01-02T22:56:48.5455902+05:30 0HLSFL2U9O02A:00000002 [INF] Sending file. Request path: '"/polyfills.js"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\polyfills.js"' (27b0a520)
+2020-01-02T22:56:48.5607814+05:30 0HLSFL2U9O02A:00000002 [INF] Request finished in 770.3796ms 200 application/javascript (791a596a)
+2020-01-02T22:56:49.2924598+05:30 0HLSFL2U9O02B:00000001 [INF] Sending file. Request path: '"/vendor.js"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\vendor.js"' (27b0a520)
+2020-01-02T22:56:49.2982785+05:30 0HLSFL2U9O02B:00000001 [INF] Request finished in 1291.9119ms 200 application/javascript (791a596a)
+2020-01-02T22:58:23.0532424+05:30 0HLSFL2U9O02F:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:50104/api/users/RegisterUser application/json 82 (ca22a1cb)
+2020-01-02T22:58:23.0582398+05:30 0HLSFL2U9O02F:00000001 [INF] CORS policy execution successful. (5409d6ef)
+2020-01-02T22:58:23.0757762+05:30 0HLSFL2U9O02F:00000001 [INF] Executing endpoint '"PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)"' (500cc934)
+2020-01-02T22:58:23.3582245+05:30 0HLSFL2U9O02F:00000001 [INF] Route matched with "{action = \"RegisterUser\", controller = \"Users\", page = \"\"}". Executing action "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" (a44c0341)
+2020-01-02T22:58:23.8976331+05:30 0HLSFL2U9O02F:00000001 [INF] Executing action method "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" with arguments (["guest"]) - Validation state: Valid (4e3479ed)
+2020-01-02T22:58:30.6176813+05:30 0HLSFL2U9O02F:00000001 [WRN] User "773449c6-a333-4197-bf40-990a1cf94865" password validation failed: "PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper". (2f223212)
+2020-01-02T22:58:30.6245466+05:30 0HLSFL2U9O02F:00000001 [INF] Executed action method "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 6720.9183ms. (50a9e262)
+2020-01-02T22:58:30.6356703+05:30 0HLSFL2U9O02F:00000001 [INF] Executing ObjectResult, writing value of type '"BillPaymentBusness.Models.UsersResult"'. (8a1b66c8)
+2020-01-02T22:58:30.8271583+05:30 0HLSFL2U9O02F:00000001 [INF] Executed action "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" in 7452.2396ms (afa2e885)
+2020-01-02T22:58:30.8319406+05:30 0HLSFL2U9O02F:00000001 [INF] Executed endpoint '"PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)"' (99874f2b)
+2020-01-02T22:58:30.8509870+05:30 0HLSFL2U9O02F:00000001 [INF] Request finished in 7803.7341ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-02T22:59:35.0006156+05:30 0HLSFL2U9O02G:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/register   (ca22a1cb)
+2020-01-02T22:59:36.2639690+05:30 0HLSFL2U9O02G:00000001 [INF] Request finished in 1263.5819ms 304  (791a596a)
+2020-01-02T22:59:36.6692938+05:30 0HLSFL2U9O02G:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:50104/styles.css   (ca22a1cb)
+2020-01-02T22:59:36.6739008+05:30 0HLSFL2U9O02H:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/runtime.js   (ca22a1cb)
+2020-01-02T22:59:36.6766023+05:30 0HLSFL2U9O02G:00000002 [INF] The file "/styles.css" was not modified (f1f8d725)
+2020-01-02T22:59:36.6812278+05:30 0HLSFL2U9O02H:00000001 [INF] The file "/runtime.js" was not modified (f1f8d725)
+2020-01-02T22:59:36.6898723+05:30 0HLSFL2U9O02G:00000002 [INF] Request finished in 13.4691ms 304 text/css (791a596a)
+2020-01-02T22:59:36.6927792+05:30 0HLSFL2U9O02H:00000001 [INF] Request finished in 11.6691ms 304 application/javascript (791a596a)
+2020-01-02T22:59:36.7241830+05:30 0HLSFL2U9O02H:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:50104/vendor.js   (ca22a1cb)
+2020-01-02T22:59:36.7283143+05:30 0HLSFL2U9O02G:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:50104/polyfills.js   (ca22a1cb)
+2020-01-02T22:59:36.7356541+05:30 0HLSFL2U9O02I:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/main.js   (ca22a1cb)
+2020-01-02T22:59:36.7368404+05:30 0HLSFL2U9O02H:00000002 [INF] The file "/vendor.js" was not modified (f1f8d725)
+2020-01-02T22:59:36.7464222+05:30 0HLSFL2U9O02I:00000001 [INF] The file "/main.js" was not modified (f1f8d725)
+2020-01-02T22:59:36.7489323+05:30 0HLSFL2U9O02H:00000002 [INF] Request finished in 24.7182ms 304 application/javascript (791a596a)
+2020-01-02T22:59:36.7541820+05:30 0HLSFL2U9O02I:00000001 [INF] Request finished in 20.8986ms 304 application/javascript (791a596a)
+2020-01-02T22:59:36.7882086+05:30 0HLSFL2U9O02G:00000003 [INF] The file "/polyfills.js" was not modified (f1f8d725)
+2020-01-02T22:59:36.7924990+05:30 0HLSFL2U9O02G:00000003 [INF] Request finished in 66.2293ms 304 application/javascript (791a596a)
+2020-01-02T22:59:52.8090430+05:30 0HLSFL2U9O02H:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:50104/api/users/RegisterUser application/json 77 (ca22a1cb)
+2020-01-02T22:59:52.8128072+05:30 0HLSFL2U9O02H:00000003 [INF] CORS policy execution successful. (5409d6ef)
+2020-01-02T22:59:52.8187678+05:30 0HLSFL2U9O02H:00000003 [INF] Executing endpoint '"PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)"' (500cc934)
+2020-01-02T22:59:52.8304370+05:30 0HLSFL2U9O02H:00000003 [INF] Route matched with "{action = \"RegisterUser\", controller = \"Users\", page = \"\"}". Executing action "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" (a44c0341)
+2020-01-02T22:59:52.8685752+05:30 0HLSFL2U9O02H:00000003 [INF] Executing action method "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" with arguments (["rerer"]) - Validation state: Valid (4e3479ed)
+2020-01-02T22:59:54.4648309+05:30 0HLSFL2U9O02H:00000003 [WRN] User "7936a5f9-e850-4ef5-b293-21982076a941" password validation failed: "PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper". (2f223212)
+2020-01-02T22:59:54.4750104+05:30 0HLSFL2U9O02H:00000003 [INF] Executed action method "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1596.4496ms. (50a9e262)
+2020-01-02T22:59:54.4842763+05:30 0HLSFL2U9O02H:00000003 [INF] Executing ObjectResult, writing value of type '"BillPaymentBusness.Models.UsersResult"'. (8a1b66c8)
+2020-01-02T22:59:54.4882833+05:30 0HLSFL2U9O02H:00000003 [INF] Executed action "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" in 1654.1171ms (afa2e885)
+2020-01-02T22:59:54.4908291+05:30 0HLSFL2U9O02H:00000003 [INF] Executed endpoint '"PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)"' (99874f2b)
+2020-01-02T22:59:54.4939251+05:30 0HLSFL2U9O02H:00000003 [INF] Request finished in 1685.5957ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-02T23:01:36.6219534+05:30  [INF] i ∩╜ówdm∩╜ú: Compiling...
+ (f6e4d4cc)
+2020-01-02T23:01:37.1032430+05:30  [INF] Date: 2020-01-02T17:31:37.091Z - Hash: ec5a798c02300a15f68c - Time: 266ms
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 79.8 kB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+ (92afa23e)
+2020-01-02T23:02:52.3117919+05:30 0HLSFL2U9O02J:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/register   (ca22a1cb)
+2020-01-02T23:02:53.4092922+05:30 0HLSFL2U9O02J:00000001 [INF] Request finished in 1105.4331ms 304  (791a596a)
+2020-01-02T23:02:53.9329086+05:30 0HLSFL2U9O02J:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:50104/styles.css   (ca22a1cb)
+2020-01-02T23:02:53.9410040+05:30 0HLSFL2U9O02J:00000002 [INF] Sending file. Request path: '"/styles.css"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\styles.css"' (27b0a520)
+2020-01-02T23:02:53.9452280+05:30 0HLSFL2U9O02J:00000002 [INF] Request finished in 12.3255ms 200 text/css (791a596a)
+2020-01-02T23:02:53.9644211+05:30 0HLSFL2U9O02J:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:50104/runtime.js   (ca22a1cb)
+2020-01-02T23:02:53.9792159+05:30 0HLSFL2U9O02K:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/main.js   (ca22a1cb)
+2020-01-02T23:02:53.9817347+05:30 0HLSFL2U9O02J:00000003 [INF] Sending file. Request path: '"/runtime.js"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\runtime.js"' (27b0a520)
+2020-01-02T23:02:54.0398639+05:30 0HLSFL2U9O02L:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/polyfills.js   (ca22a1cb)
+2020-01-02T23:02:54.0438221+05:30 0HLSFL2U9O02J:00000003 [INF] Request finished in 23.1096ms 200 application/javascript (791a596a)
+2020-01-02T23:02:54.0457997+05:30 0HLSFL2U9O02M:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/vendor.js   (ca22a1cb)
+2020-01-02T23:02:54.0487806+05:30 0HLSFL2U9O02K:00000001 [INF] Sending file. Request path: '"/main.js"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\main.js"' (27b0a520)
+2020-01-02T23:02:54.0545832+05:30 0HLSFL2U9O02K:00000001 [INF] Request finished in 85.999ms 200 application/javascript (791a596a)
+2020-01-02T23:02:54.0555945+05:30 0HLSFL2U9O02L:00000001 [INF] Sending file. Request path: '"/polyfills.js"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\polyfills.js"' (27b0a520)
+2020-01-02T23:02:54.0585670+05:30 0HLSFL2U9O02L:00000001 [INF] Request finished in 73.5789ms 200 application/javascript (791a596a)
+2020-01-02T23:02:54.2375155+05:30 0HLSFL2U9O02M:00000001 [INF] Sending file. Request path: '"/vendor.js"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\vendor.js"' (27b0a520)
+2020-01-02T23:02:54.2454571+05:30 0HLSFL2U9O02M:00000001 [INF] Request finished in 200.3783ms 200 application/javascript (791a596a)
+2020-01-02T23:03:10.0045181+05:30 0HLSFL2U9O02J:00000004 [INF] Request starting HTTP/1.1 POST http://localhost:50104/api/users/RegisterUser application/json 76 (ca22a1cb)
+2020-01-02T23:03:10.0085732+05:30 0HLSFL2U9O02J:00000004 [INF] CORS policy execution successful. (5409d6ef)
+2020-01-02T23:03:10.0112288+05:30 0HLSFL2U9O02J:00000004 [INF] Executing endpoint '"PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)"' (500cc934)
+2020-01-02T23:03:10.0162339+05:30 0HLSFL2U9O02J:00000004 [INF] Route matched with "{action = \"RegisterUser\", controller = \"Users\", page = \"\"}". Executing action "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" (a44c0341)
+2020-01-02T23:03:10.0762904+05:30 0HLSFL2U9O02J:00000004 [INF] Executing action method "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" with arguments (["445454"]) - Validation state: Valid (4e3479ed)
+2020-01-02T23:03:12.3010434+05:30 0HLSFL2U9O02J:00000004 [WRN] User "f9cfd183-431f-44c9-afd0-a80ef8895d80" password validation failed: "PasswordRequiresNonAlphanumeric;PasswordRequiresLower;PasswordRequiresUpper". (2f223212)
+2020-01-02T23:03:12.3044255+05:30 0HLSFL2U9O02J:00000004 [INF] Executed action method "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2224.8292ms. (50a9e262)
+2020-01-02T23:03:12.3070467+05:30 0HLSFL2U9O02J:00000004 [INF] Executing ObjectResult, writing value of type '"BillPaymentBusness.Models.UsersResult"'. (8a1b66c8)
+2020-01-02T23:03:12.3120628+05:30 0HLSFL2U9O02J:00000004 [INF] Executed action "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" in 2291.0644ms (afa2e885)
+2020-01-02T23:03:12.3161934+05:30 0HLSFL2U9O02J:00000004 [INF] Executed endpoint '"PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)"' (99874f2b)
+2020-01-02T23:03:12.3219629+05:30 0HLSFL2U9O02J:00000004 [INF] Request finished in 2315.8644ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-02T23:03:21.0145045+05:30 0HLSFL2U9O02K:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:50104/api/users/RegisterUser application/json 76 (ca22a1cb)
+2020-01-02T23:03:21.0173527+05:30 0HLSFL2U9O02K:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2020-01-02T23:03:21.0199514+05:30 0HLSFL2U9O02K:00000002 [INF] Executing endpoint '"PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)"' (500cc934)
+2020-01-02T23:03:21.0220737+05:30 0HLSFL2U9O02K:00000002 [INF] Route matched with "{action = \"RegisterUser\", controller = \"Users\", page = \"\"}". Executing action "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" (a44c0341)
+2020-01-02T23:03:21.0388735+05:30 0HLSFL2U9O02K:00000002 [INF] Executing action method "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" with arguments (["445454"]) - Validation state: Valid (4e3479ed)
+2020-01-02T23:03:23.4628058+05:30 0HLSFL2U9O02K:00000002 [WRN] User "6e426c9b-25a9-4d58-ae14-11247d6d4a8c" password validation failed: "PasswordRequiresNonAlphanumeric;PasswordRequiresLower;PasswordRequiresUpper". (2f223212)
+2020-01-02T23:03:23.4663814+05:30 0HLSFL2U9O02K:00000002 [INF] Executed action method "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2423.9407ms. (50a9e262)
+2020-01-02T23:03:23.4707571+05:30 0HLSFL2U9O02K:00000002 [INF] Executing ObjectResult, writing value of type '"BillPaymentBusness.Models.UsersResult"'. (8a1b66c8)
+2020-01-02T23:03:23.4748247+05:30 0HLSFL2U9O02K:00000002 [INF] Executed action "PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)" in 2448.9776ms (afa2e885)
+2020-01-02T23:03:23.4783091+05:30 0HLSFL2U9O02K:00000002 [INF] Executed endpoint '"PaymentWeb.Controllers.UsersController.RegisterUser (PaymentWeb)"' (99874f2b)
+2020-01-02T23:03:23.4823275+05:30 0HLSFL2U9O02K:00000002 [INF] Request finished in 2468.8315ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-02T23:11:34.3316599+05:30  [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-02T23:11:35.3743095+05:30  [INF] Executed DbCommand ("319"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0" (0723d8ff)
+2020-01-02T23:11:35.6501482+05:30  [INF] Executed DbCommand ("67"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2020-01-02T23:11:36.4686168+05:30  [INF] Starting @angular/cli on port 56295... (5d8fe17f)
+2020-01-02T23:11:37.1945090+05:30 0HLSFLC24DPID:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:50104/  0 (ca22a1cb)
+2020-01-02T23:11:37.1945090+05:30 0HLSFLC24DPIC:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/   (ca22a1cb)
+2020-01-02T23:11:37.2460096+05:30 0HLSFLC24DPID:00000001 [INF] Request finished in 54.9912ms 200  (791a596a)
+2020-01-02T23:12:09.8606516+05:30  [INF] > PaymentWeb@0.0.0 start C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp
+> ng serve "--port" "56295"
+
+** Angular Live Development Server is listening on localhost:56295, open your browser on http://localhost:56295/ **
+ (d11ce255)
+2020-01-02T23:12:24.4578791+05:30  [INF] i ∩╜ówdm∩╜ú: wait until bundle finished: /
+ (5b9bec14)
+2020-01-02T23:12:29.4220510+05:30  [INF] Date: 2020-01-02T17:42:29.388Z
+Hash: 73ada6bb085bac52618f
+Time: 18882ms
+chunk {main} main.js, main.js.map (main) 79.9 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 227 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 130 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.86 MB [initial] [rendered]
+i ∩╜ówdm∩╜ú: Compiled successfully.
+ (7699406e)
+2020-01-02T23:12:29.8223314+05:30 0HLSFLC24DPIC:00000001 [INF] Request finished in 52630.1286ms 304  (791a596a)
+2020-01-02T23:12:29.9830399+05:30 0HLSFLC24DPID:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:50104/styles.css   (ca22a1cb)
+2020-01-02T23:12:30.0544494+05:30 0HLSFLC24DPIC:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:50104/polyfills.js   (ca22a1cb)
+2020-01-02T23:12:30.0703094+05:30 0HLSFLC24DPIE:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/vendor.js   (ca22a1cb)
+2020-01-02T23:12:30.0714315+05:30 0HLSFLC24DPIF:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/runtime.js   (ca22a1cb)
+2020-01-02T23:12:30.0825376+05:30 0HLSFLC24DPIG:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:50104/main.js   (ca22a1cb)
+2020-01-02T23:12:30.2345548+05:30 0HLSFLC24DPIF:00000001 [INF] Sending file. Request path: '"/runtime.js"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\runtime.js"' (27b0a520)
+2020-01-02T23:12:30.2360529+05:30 0HLSFLC24DPIG:00000001 [INF] Sending file. Request path: '"/main.js"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\main.js"' (27b0a520)
+2020-01-02T23:12:30.2395851+05:30 0HLSFLC24DPIF:00000001 [INF] Request finished in 172.4213ms 200 application/javascript (791a596a)
+2020-01-02T23:12:30.2421083+05:30 0HLSFLC24DPIG:00000001 [INF] Request finished in 157.4468ms 200 application/javascript (791a596a)
+2020-01-02T23:12:30.2940698+05:30 0HLSFLC24DPID:00000002 [INF] Sending file. Request path: '"/styles.css"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\styles.css"' (27b0a520)
+2020-01-02T23:12:30.3001945+05:30 0HLSFLC24DPID:00000002 [INF] Request finished in 315.4282ms 200 text/css (791a596a)
+2020-01-02T23:12:30.4032121+05:30 0HLSFLC24DPIC:00000002 [INF] Sending file. Request path: '"/polyfills.js"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\polyfills.js"' (27b0a520)
+2020-01-02T23:12:30.4093627+05:30 0HLSFLC24DPIC:00000002 [INF] Request finished in 360.9223ms 200 application/javascript (791a596a)
+2020-01-02T23:12:30.7227323+05:30 0HLSFLC24DPIE:00000001 [INF] Sending file. Request path: '"/vendor.js"'. Physical path: '"C:\Users\HOME\source\repos\PaymentWeb\PaymentWeb\ClientApp\dist\vendor.js"' (27b0a520)
+2020-01-02T23:12:30.7271660+05:30 0HLSFLC24DPIE:00000001 [INF] Request finished in 660.7691ms 200 application/javascript (791a596a)
+2020-01-02T23:13:40.7778092+05:30 0HLSFLC24DPIH:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:50104/api/users/authenticate application/json 58 (ca22a1cb)
+2020-01-02T23:13:40.7825011+05:30 0HLSFLC24DPIH:00000001 [INF] CORS policy execution successful. (5409d6ef)
+2020-01-02T23:13:40.9056964+05:30 0HLSFLC24DPIH:00000001 [INF] Executing endpoint '"PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)"' (500cc934)
+2020-01-02T23:13:41.0776087+05:30 0HLSFLC24DPIH:00000001 [INF] Route matched with "{action = \"Authenticate\", controller = \"Users\", page = \"\"}". Executing action "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)" (a44c0341)
+2020-01-02T23:13:41.5514534+05:30 0HLSFLC24DPIH:00000001 [INF] Executing action method "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)" with arguments (["PaymentWeb.Model.AuthenticateModel"]) - Validation state: Valid (4e3479ed)
+2020-01-02T23:13:41.5749585+05:30 0HLSFLC24DPIH:00000001 [WRN] username (a8044d97)
+2020-01-02T23:13:41.5775407+05:30 0HLSFLC24DPIH:00000001 [WRN] Password (eccd0209)
+2020-01-02T23:13:45.1411763+05:30 0HLSFLC24DPIH:00000001 [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-02T23:13:45.9534164+05:30 0HLSFLC24DPIH:00000001 [INF] Executed DbCommand ("634"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-01-02T23:13:46.1364676+05:30 0HLSFLC24DPIH:00000001 [WRN] Invalid password for user "98c8f781-f17d-4a34-b568-c5697ec52705". (c2dce6c7)
+2020-01-02T23:13:46.1636230+05:30 0HLSFLC24DPIH:00000001 [INF] Executed action method "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.BadRequestObjectResult" in 4606.4624ms. (50a9e262)
+2020-01-02T23:13:46.1761667+05:30 0HLSFLC24DPIH:00000001 [INF] Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'. (8a1b66c8)
+2020-01-02T23:13:46.2636772+05:30 0HLSFLC24DPIH:00000001 [INF] Executed action "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)" in 5174.6017ms (afa2e885)
+2020-01-02T23:13:46.2673272+05:30 0HLSFLC24DPIH:00000001 [INF] Executed endpoint '"PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)"' (99874f2b)
+2020-01-02T23:13:46.2761446+05:30 0HLSFLC24DPIH:00000001 [INF] Request finished in 5501.8581ms 400 application/json; charset=utf-8 (791a596a)
+2020-01-02T23:13:59.0389934+05:30 0HLSFLC24DPIH:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:50104/api/users/authenticate application/json 57 (ca22a1cb)
+2020-01-02T23:13:59.0423696+05:30 0HLSFLC24DPIH:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2020-01-02T23:13:59.0476654+05:30 0HLSFLC24DPIH:00000002 [INF] Executing endpoint '"PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)"' (500cc934)
+2020-01-02T23:13:59.0518146+05:30 0HLSFLC24DPIH:00000002 [INF] Route matched with "{action = \"Authenticate\", controller = \"Users\", page = \"\"}". Executing action "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)" (a44c0341)
+2020-01-02T23:13:59.0737906+05:30 0HLSFLC24DPIH:00000002 [INF] Executing action method "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)" with arguments (["PaymentWeb.Model.AuthenticateModel"]) - Validation state: Valid (4e3479ed)
+2020-01-02T23:13:59.0804856+05:30 0HLSFLC24DPIH:00000002 [WRN] username (a8044d97)
+2020-01-02T23:13:59.0844700+05:30 0HLSFLC24DPIH:00000002 [WRN] Password (eccd0209)
+2020-01-02T23:14:00.8600707+05:30 0HLSFLC24DPIH:00000002 [INF] Entity Framework Core "2.2.0-rtm-35687" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-01-02T23:14:00.9218710+05:30 0HLSFLC24DPIH:00000002 [INF] Executed DbCommand ("57"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-01-02T23:14:01.0081797+05:30 0HLSFLC24DPIH:00000002 [INF] Executed action method "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 1929.8515ms. (50a9e262)
+2020-01-02T23:14:01.0123184+05:30 0HLSFLC24DPIH:00000002 [INF] Executing ObjectResult, writing value of type '"UsersDataAcccesLayer.User"'. (8a1b66c8)
+2020-01-02T23:14:01.0187176+05:30 0HLSFLC24DPIH:00000002 [INF] Executed action "PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)" in 1963.533ms (afa2e885)
+2020-01-02T23:14:01.0219016+05:30 0HLSFLC24DPIH:00000002 [INF] Executed endpoint '"PaymentWeb.Controllers.UsersController.Authenticate (PaymentWeb)"' (99874f2b)
+2020-01-02T23:14:01.0258525+05:30 0HLSFLC24DPIH:00000002 [INF] Request finished in 1989.4718ms 200 application/json; charset=utf-8 (791a596a)
+2020-01-02T23:14:01.1788007+05:30 0HLSFLC24DPIH:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:50104/api/SampleData/WeatherForecasts   (ca22a1cb)
+2020-01-02T23:14:01.2568320+05:30 0HLSFLC24DPIH:00000003 [INF] Successfully validated the token. (60169667)
+2020-01-02T23:14:01.2779815+05:30 0HLSFLC24DPIH:00000003 [INF] Executing endpoint '"PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)"' (500cc934)
+2020-01-02T23:14:01.2826690+05:30 0HLSFLC24DPIH:00000003 [INF] Route matched with "{action = \"WeatherForecasts\", controller = \"SampleData\", page = \"\"}". Executing action "PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)" (a44c0341)
+2020-01-02T23:14:01.2942401+05:30 0HLSFLC24DPIH:00000003 [INF] Authorization was successful. (0d575a54)
+2020-01-02T23:14:01.3753335+05:30 0HLSFLC24DPIH:00000003 [INF] Executing action method "PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)" - Validation state: Valid (dad538d7)
+2020-01-02T23:14:01.3803661+05:30 0HLSFLC24DPIH:00000003 [INF] Executed action method "PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1.8952ms. (50a9e262)
+2020-01-02T23:14:01.3830752+05:30 0HLSFLC24DPIH:00000003 [INF] Executing ObjectResult, writing value of type '"System.Linq.Enumerable+SelectIPartitionIterator`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[PaymentWeb.Controllers.SampleDataController+WeatherForecast, PaymentWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-01-02T23:14:01.4008249+05:30 0HLSFLC24DPIH:00000003 [INF] Executed action "PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)" in 112.9567ms (afa2e885)
+2020-01-02T23:14:01.4044108+05:30 0HLSFLC24DPIH:00000003 [INF] Executed endpoint '"PaymentWeb.Controllers.SampleDataController.WeatherForecasts (PaymentWeb)"' (99874f2b)
+2020-01-02T23:14:01.4099800+05:30 0HLSFLC24DPIH:00000003 [INF] Request finished in 228.8147ms 200 application/json; charset=utf-8 (791a596a)

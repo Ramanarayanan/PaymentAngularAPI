@@ -1,0 +1,19 @@
+<div class="box-header with-border">
+  <div class="form-group voffset row">
+    <label for="" class="vertical-label col-sm-4 col-md-8 text-right"> Select Operater</label>
+    <div class="col-sm-8 col-md-4">
+      <select id="Id" #Id="ngModel" class="hideLabel form-control dropdown-header" [(ngModel)]="operater" name="Id" (change)="selectName();">
+
+        <option [ngValue]="k.Id" *ngFor="let k of OperaterList" class="dropdown-item border-dark">
+          {{k.Name}}
+        </option>
+      </select>
+    </div>
+  </div>
+  <div *ngIf="enablePay">
+    <app-operateter-table [OperaterName]="operaterName"></app-operateter-table>
+    </div>
+
+
+
+  </div>
