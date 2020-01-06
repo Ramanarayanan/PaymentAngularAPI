@@ -3,12 +3,14 @@ using BillPaymentBusness.Interfaces;
 using BillPaymentBusness.Models;
 using Microsoft.Extensions.Logging;
 using BillPaymentBusness.ExceptionHandler;
+using Microsoft.AspNetCore.Authorization;
 
 namespace PaymentWeb.Controllers
 {
     /// <summary>
     /// The Bankcontroller
     /// </summary>
+    [Authorize]
     [ApiExceptionFilter]
     [Route("api/[controller]")]
     [ApiController]

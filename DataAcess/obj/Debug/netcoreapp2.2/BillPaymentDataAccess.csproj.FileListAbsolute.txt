@@ -22,3 +22,4 @@ C:\Users\HOME\source\repos\AngularApiCore\PaymentAngulrAPI\DataAcess\obj\Debug\n
 C:\Users\HOME\source\repos\AngularApiCore\PaymentAngulrAPI\DataAcess\obj\Debug\netcoreapp2.2\BillPaymentDataAccess.AssemblyInfo.cs
 C:\Users\HOME\source\repos\AngularApiCore\PaymentAngulrAPI\DataAcess\obj\Debug\netcoreapp2.2\BillPaymentDataAccess.dll
 C:\Users\HOME\source\repos\AngularApiCore\PaymentAngulrAPI\DataAcess\obj\Debug\netcoreapp2.2\BillPaymentDataAccess.pdb
+C:\Users\HOME\source\repos\AngularApiCore\PaymentAngulrAPI\DataAcess\obj\Debug\netcoreapp2.2\BillPaymentDataAccess.csprojAssemblyReference.cache

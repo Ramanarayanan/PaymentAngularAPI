@@ -4,12 +4,14 @@ using Microsoft.AspNetCore.Mvc;
 using BillPaymentBusness.ExceptionHandler;
 using BillPaymentBusness.Interfaces;
 using BillPaymentBusness.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace PaymentWeb.Controllers
 {
     /// <summary>
     /// The Operater Controller
     /// </summary>
+    [Authorize]
     [ApiExceptionFilter]
     [Route("api/[controller]")]
     [ApiController]

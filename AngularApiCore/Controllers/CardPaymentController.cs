@@ -2,6 +2,7 @@
 using BillPaymentBusness.ExceptionHandler;
 using BillPaymentBusness.Interfaces;
 using BillPaymentBusness.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace PaymentWeb.Controllers
@@ -9,6 +10,7 @@ namespace PaymentWeb.Controllers
     /// <summary>
     /// The Card payment controller 
     /// </summary>
+    [Authorize]
     [ApiExceptionFilter]
     [Route("api/[controller]")]
     [ApiController]

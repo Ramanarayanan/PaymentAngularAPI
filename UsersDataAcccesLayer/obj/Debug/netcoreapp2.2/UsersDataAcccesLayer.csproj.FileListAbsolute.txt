@@ -18,3 +18,4 @@ C:\Users\HOME\source\repos\AngularApiCore\PaymentAngulrAPI\UsersDataAcccesLayer\
 C:\Users\HOME\source\repos\AngularApiCore\PaymentAngulrAPI\UsersDataAcccesLayer\bin\Debug\netcoreapp2.2\UsersDataAcccesLayer.pdb
 C:\Users\HOME\source\repos\AngularApiCore\PaymentAngulrAPI\UsersDataAcccesLayer\obj\Debug\netcoreapp2.2\UsersDataAcccesLayer.dll
 C:\Users\HOME\source\repos\AngularApiCore\PaymentAngulrAPI\UsersDataAcccesLayer\obj\Debug\netcoreapp2.2\UsersDataAcccesLayer.pdb
+C:\Users\HOME\source\repos\AngularApiCore\PaymentAngulrAPI\UsersDataAcccesLayer\obj\Debug\netcoreapp2.2\UsersDataAcccesLayer.csprojAssemblyReference.cache
