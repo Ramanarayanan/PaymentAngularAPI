@@ -1,2 +1,2 @@
 # PaymentAngulrAPI
- Angular and WSP.NET WEB CORE API
+ Angular and ASP.NET WEB CORE API
