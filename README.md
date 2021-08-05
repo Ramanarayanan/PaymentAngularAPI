@@ -1,4 +1,4 @@
-# PaymentAngulrAPI
+# PaymentAngularAPI
  Angular and ASP.NET WEB CORE API
  
  NET core, Angular with WebApi, Entity framework.
