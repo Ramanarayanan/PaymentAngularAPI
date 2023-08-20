@@ -24,11 +24,16 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build --no-restore
-    - name: publish
+      run: |
+       dotnet build --no-restore
+    - name: angular
+    - working-directory: ${{ github.workspace}}/AngularApiCor/ClientApp
       run: |
           npm install
           ng build
+    - name: publish
+      run: |
+         
           dotnet publish "${{ github.workspace}}/AngularApiCore/BillPaymentWeb.csproj" -c Release -o webapp
     - name: 'Upload Artifact'
       uses: actions/upload-artifact@v3
