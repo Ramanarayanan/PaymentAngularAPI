@@ -27,7 +27,7 @@ jobs:
       run: |
        dotnet build --no-restore
     - name: angular
-    - working-directory: ${{ github.workspace}}/AngularApiCor/ClientApp
+      working-directory: ${{ github.workspace}}/AngularApiCore/ClientApp
       run: |
           npm install
           ng build
