@@ -26,10 +26,16 @@ jobs:
     - name: Build
       run: |
        dotnet build --no-restore
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
     - name: angular
       working-directory: ${{ github.workspace}}/AngularApiCore/ClientApp
+   
       run: |
           npm install
+          npm install -g @angular/cli@6.0.0
           ng build
     - name: publish
       run: |
